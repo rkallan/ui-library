@@ -1,0 +1,62 @@
+{
+    "name": "rkallan-ui-library",
+    "version": "0.0.1",
+    "description": "ReactJS UI Library by R.Kallan",
+    "keywords": [
+        "UI Element"
+    ],
+    "private": true,
+    "license": "MIT",
+    "author": {
+        "name": "Ravi Kallan",
+        "email": "r.kallan@upcmail.nl"
+    },
+    "homepage": ".",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:rkallan/ui-library.git"
+    },
+    "bugs": {
+        "url": "https://github.com/rkallan/ui-library./issues/new",
+        "email": "r.kallan@upcmail.nl"
+    },
+    "main": "build/index.js",
+    "files": [
+        "build"
+    ],
+    "dependencies": {
+        "@loadable/component": "^5.12.0",
+        "@testing-library/jest-dom": "^5.8.0",
+        "@testing-library/react": "^10.0.4",
+        "@testing-library/user-event": "^10.3.2",
+        "prop-types": "^15.7.2",
+        "react": "^16.13.1",
+        "react-app-polyfill": "^1.0.6",
+        "react-dom": "^16.13.1",
+        "react-scripts": "3.4.1",
+        "react-spring": "9.0.0-rc.3",
+        "rkallan-eslint-config": "^4.0.0",
+        "rkallan-eslint-config-react": "^4.0.0",
+        "rkallan-prettier-config": "^2.0.0"
+    },
+    "devDependencies": {
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.3",
+        "husky": "^4.2.5",
+        "lint-staged": "^10.2.4",
+        "node-sass": "^4.14.1",
+        "prettier": "^2.0.5"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "lint": "eslint .",
+        "lint:staged": "npm run format",
+        "format": "prettier --write \"./**/*.{jsx,js,json,css,scss,md,svg}\" \"!node_modules/**\""
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    }
+}

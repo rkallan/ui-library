@@ -16,6 +16,9 @@ Button.defaultProps = {
 Button.propTypes = {
     disabled: PropTypes.bool,
     label: PropTypes.string.isRequired,
+    /**
+     * The inner radius for the chart center.
+     */
     onClick: PropTypes.func,
     style: PropTypes.shape({}),
 };

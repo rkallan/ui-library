@@ -1,0 +1,26 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { action } from "@storybook/addon-actions";
+import { withKnobs, text, boolean, number } from "@storybook/addon-knobs";
+import Button from "./index";
+
+<Meta title="ButtonTest" component={Button} />
+
+# Badge
+
+Let's define a story for our `Button` component:
+
+<Preview>
+    <Story name="button">
+        <Button onClick={action("clicked")} label={text("Label", "Hello Storybook")} />
+    </Story>
+</Preview>
+
+<Preview>
+    <Story name="emojicon">
+        <Button onClick={action("clicked")} label="😀 😎 👍 💯" />
+    </Story>
+</Preview>
+
+## Props 🔧
+
+<Props of={Button} />

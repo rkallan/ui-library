@@ -15,6 +15,10 @@ module.exports = {
     ],
     plugins: ["react", "react-hooks", "jsx-a11y", "prettier"],
     globals: {
+        page: true,
+        browser: true,
+        context: true,
+        jestPuppeteer: true,
         Atomics: "readonly",
         SharedArrayBuffer: "readonly",
     },

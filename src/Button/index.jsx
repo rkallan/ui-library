@@ -9,7 +9,7 @@ const Button = ({ disabled, label, onClick, style }) => (
 
 Button.defaultProps = {
     disabled: false,
-    onClick: () => {},
+    onClick: undefined,
     style: {},
 };
 
@@ -17,7 +17,7 @@ Button.propTypes = {
     disabled: PropTypes.bool,
     label: PropTypes.string.isRequired,
     /**
-     * The inner radius for the chart center.
+     * set extra description text
      */
     onClick: PropTypes.func,
     style: PropTypes.shape({}),

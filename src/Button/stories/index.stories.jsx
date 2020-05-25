@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { action } from "@storybook/addon-actions";
 
-import Button from "./index";
+import Button from "../index";
 
 export default {
     title: "Button",

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { action } from "@storybook/addon-actions";
-
+import "resources/styles/default/_default.scss";
 import Button from "../index";
 
 export default {

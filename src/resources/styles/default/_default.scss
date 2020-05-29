@@ -17,7 +17,7 @@ html {
     position: relative;
     display: flex;
     @include propValueFromMaps(map-get($font, default));
-    background: safe-hsla($colorWhite);
+    background: transparent;
     overflow-y: scroll;
     overflow-x: hidden;
     min-width: map-get($breakpoints, xsmall);
@@ -190,10 +190,8 @@ code,
 kbd,
 samp {
     font-family: "Consolas", monospace;
-    font-size: smaller;
-    border: 0.0625rem solid safe-hsla(map-get($colorBlack, default));
     padding: 0.125rem;
-    vertical-align: text-top;
+    vertical-align: baseline;
 }
 
 pre {

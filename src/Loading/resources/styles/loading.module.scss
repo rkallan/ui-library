@@ -1,0 +1,52 @@
+@import "./src/resources/styles/variables/variables";
+@import "./src/resources/styles/mixins/mixins";
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text {
+        color: currentColor;
+        margin-right: 0.125rem;
+    }
+
+    .bullet {
+        width: 0.25rem;
+        height: 0.25rem;
+        border-radius: 100%;
+        margin: 0 0.125rem 0.25rem;
+        background: currentColor;
+        align-self: flex-end;
+        animation: bounce 0.8s linear infinite;
+
+        &[variant~="second"] {
+            animation-delay: 0.1s;
+        }
+
+        &[variant~="third"] {
+            animation-delay: 0.2s;
+        }
+
+        &[variant~="fourth"] {
+            animation-delay: 0.3s;
+        }
+    }
+}
+
+@keyframes bounce {
+    0%,
+    50%,
+    100% {
+        transform: scale(1);
+        filter: blur(0px);
+    }
+    25% {
+        transform: scale(0.8);
+        filter: blur(1px);
+    }
+    75% {
+        filter: blur(1px);
+        transform: scale(1.2);
+    }
+}

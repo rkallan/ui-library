@@ -9,7 +9,7 @@ addParameters({
     docs: {
         container: DocsContainer,
         page: DocsPage,
-        theme: customTheme.dark,
+        theme: customTheme.light,
     },
     backgrounds: {
         values: [

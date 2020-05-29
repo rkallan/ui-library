@@ -19,6 +19,7 @@ module.exports = {
         browser: true,
         context: true,
         jestPuppeteer: true,
+        self: true,
         Atomics: "readonly",
         SharedArrayBuffer: "readonly",
     },

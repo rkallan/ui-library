@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button With Some Emoji 1`] = `
+<button
+  disabled={false}
+  onClick={[Function]}
+  style={Object {}}
+  type="button"
+>
+  😀 😎 👍 💯
+</button>
+`;
+
+exports[`Storyshots Button With Text 1`] = `
+<button
+  disabled={false}
+  onClick={[Function]}
+  style={Object {}}
+  type="button"
+>
+  Hello Button
+</button>
+`;
+
+exports[`Storyshots Button with counter 1`] = `
+<button
+  disabled={false}
+  onClick={[Function]}
+  style={Object {}}
+  type="button"
+>
+  Testing: 0
+</button>
+`;
+
+exports[`Storyshots Loading Delay 1`] = `null`;
+
+exports[`Storyshots Loading No Delay 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="text"
+  >
+    Loading
+  </div>
+  <div
+    className="bullet"
+    variant="first"
+  />
+  <div
+    className="bullet"
+    variant="second"
+  />
+  <div
+    className="bullet"
+    variant="third"
+  />
+  <div
+    className="bullet"
+    variant="fourth"
+  />
+</div>
+`;

@@ -20,11 +20,9 @@ export const WithCounter = () => {
     return <Button onClick={() => setCounter(counter + 1)} label={label} />;
 };
 
-WithCounter.story = {
-    name: "with counter",
-    parameters: {
-        docs: {
-            storyDescription: "This demonstrates react hooks working inside stories. Go team! 🚀",
-        },
+WithCounter.storyName = "with counter";
+WithCounter.parameters = {
+    docs: {
+        storyDescription: "This demonstrates react hooks working inside stories. Go team! 🚀",
     },
 };

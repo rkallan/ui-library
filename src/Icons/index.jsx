@@ -2,34 +2,48 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./resources/styles/icons.module.scss";
 
-const reqSvgs = require.context("!@svgr/webpack?-svgo,+titleProp!./resources/svg", true, /\.svg$/);
-const svgIcons = reqSvgs.keys().reduce((images, path) => {
-    const key = path.substring(path.lastIndexOf("/") + 1, path.lastIndexOf("."));
-    const image = images;
-    image[key] = reqSvgs(path).default;
-    return image;
+const svgFiles = require.context("!@svgr/webpack?-svgo,+titleProp!./resources/svg", true, /\.svg$/);
+const svgIcons = svgFiles.keys().reduce((svgComponents, svgUrlPath) => {
+    const filename = svgUrlPath.split("/").pop();
+    const objectKey = filename.slice(0, filename.lastIndexOf("."));
+    const svgComponent = svgComponents;
+    svgComponent[objectKey] = svgFiles(svgUrlPath).default;
+    return svgComponent;
 }, {});
 
-const Icons = ({ name, variant, noFallback, noContainer, svgProps }) => {
+const Icons = ({ name, title, size, noFallback, noContainer, svgProps }) => {
     const Icon = svgIcons[name] || (!noFallback && svgIcons.svg) || undefined;
 
-    if (Icon) {
-        const svgIcon = <Icon className={styles.icon} title={name} variant={noContainer ? variant : null} />;
+    if (!Icon) return null;
 
-        if (noContainer) return svgIcon;
+    const SvgIcon = () => {
+        const svgIconVariant = [];
+        if (noContainer) svgIconVariant.push(size);
 
         return (
-            <div className={styles.container} variant={variant}>
-                {svgIcon}
-            </div>
+            <Icon
+                {...svgProps}
+                className={styles.icon}
+                title={title === undefined ? name : title}
+                variant={svgIconVariant.length ? svgIconVariant.join(" ") : null}
+            />
         );
-    }
+    };
 
-    return null;
+    if (noContainer) return <SvgIcon />;
+
+    const containerVariant = [size];
+
+    return (
+        <div className={styles.container} variant={containerVariant.length ? containerVariant.join(" ") : null}>
+            <SvgIcon />
+        </div>
+    );
 };
 
 Icons.defaultProps = {
-    variant: "normal",
+    title: undefined,
+    size: "normal",
     noFallback: false,
     noContainer: false,
     svgProps: undefined,
@@ -37,7 +51,8 @@ Icons.defaultProps = {
 
 Icons.propTypes = {
     name: PropTypes.string.isRequired,
-    variant: PropTypes.oneOf(["smallest", "small", "normal", "large", "largest", "full-width"]),
+    title: PropTypes.string,
+    size: PropTypes.oneOf(["smallest", "small", "normal", "large", "largest", "full-width"]),
     noFallback: PropTypes.bool,
     noContainer: PropTypes.bool,
     svgProps: PropTypes.shape({}),

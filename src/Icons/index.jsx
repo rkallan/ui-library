@@ -1,13 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
+import requireContext from "require-context.macro";
 import styles from "./resources/styles/icons.module.scss";
 
-const svgFiles = require.context("!@svgr/webpack?-svgo,+titleProp!./resources/svg", true, /\.svg$/);
+// const svgFiles = require.context("!@svgr/webpack?-svgo,+titleProp!./resources/svg", true, /\.svg$/);
+
+// const svgFiles = requireContext("!@svgr/webpack?-svgo,+titleProp!./resources/svg", true, /\.svg$/);
+const svgFiles = requireContext("./resources/svg", true, /\.svg$/);
 const svgIcons = svgFiles.keys().reduce((svgComponents, svgUrlPath) => {
     const filename = svgUrlPath.split("/").pop();
     const objectKey = filename.slice(0, filename.lastIndexOf("."));
     const svgComponent = svgComponents;
-    svgComponent[objectKey] = svgFiles(svgUrlPath).default;
+
+    import(`./resources/svg/${svgFiles(svgUrlPath).default}`)
+        .then((component) => {
+            svgComponent[objectKey] = component.ReactComponent;
+        })
+        .catch(() => {});
+
     return svgComponent;
 }, {});
 
@@ -35,7 +45,7 @@ const Icons = ({ name, title, size, noFallback, noContainer, svgProps }) => {
     const containerVariant = [size];
 
     return (
-        <div className={styles.container} variant={containerVariant.length ? containerVariant.join(" ") : null}>
+        <div className={styles.container} variant={containerVariant.join(" ")}>
             <SvgIcon />
         </div>
     );

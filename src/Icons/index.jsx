@@ -1,43 +1,19 @@
 import React from "react";
 import PropTypes from "prop-types";
-import requireContext from "require-context.macro";
+import { svgIcons } from "./svgFiles";
 import styles from "./resources/styles/icons.module.scss";
 
-// const svgFiles = require.context("!@svgr/webpack?-svgo,+titleProp!./resources/svg", true, /\.svg$/);
-
-// const svgFiles = requireContext("!@svgr/webpack?-svgo,+titleProp!./resources/svg", true, /\.svg$/);
-const svgFiles = requireContext("./resources/svg", true, /\.svg$/);
-const svgIcons = svgFiles.keys().reduce((svgComponents, svgUrlPath) => {
-    const filename = svgUrlPath.split("/").pop();
-    const objectKey = filename.slice(0, filename.lastIndexOf("."));
-    const svgComponent = svgComponents;
-
-    import(`./resources/svg/${svgFiles(svgUrlPath).default}`)
-        .then((component) => {
-            svgComponent[objectKey] = component.ReactComponent;
-        })
-        .catch(() => {});
-
-    return svgComponent;
-}, {});
-
 const Icons = ({ name, title, size, noFallback, noContainer, svgProps }) => {
-    const Icon = svgIcons[name] || (!noFallback && svgIcons.svg) || undefined;
+    const Icon = (svgIcons && svgIcons[name]) || (!noFallback && svgIcons.svg) || undefined;
 
     if (!Icon) return null;
 
     const SvgIcon = () => {
         const svgIconVariant = [];
         if (noContainer) svgIconVariant.push(size);
+        if (!noContainer) svgIconVariant.push("full-width");
 
-        return (
-            <Icon
-                {...svgProps}
-                className={styles.icon}
-                title={title === undefined ? name : title}
-                variant={svgIconVariant.length ? svgIconVariant.join(" ") : null}
-            />
-        );
+        return <Icon {...svgProps} className={styles.icon} title={title === undefined ? name : title} variant={svgIconVariant.join(" ")} />;
     };
 
     if (noContainer) return <SvgIcon />;

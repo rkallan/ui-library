@@ -35,19 +35,19 @@ export const Default = () => {
 };
 
 export const Smallest = () => {
-    return <Icons name="home" variant="smallest" />;
+    return <Icons name="home" size="smallest" />;
 };
 
 export const Small = () => {
-    return <Icons name="home" variant="small" />;
+    return <Icons name="home" size="small" />;
 };
 
 export const Large = () => {
-    return <Icons name="home" variant="large" />;
+    return <Icons name="home" size="large" />;
 };
 
 export const Largest = () => {
-    return <Icons name="home" variant="largest" />;
+    return <Icons name="home" size="largest" />;
 };
 
 export const CustomTitle = () => {

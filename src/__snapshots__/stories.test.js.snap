@@ -41,7 +41,7 @@ exports[`Storyshots Icons Custom Title 1`] = `
   <svg
     className="icon"
     title="Custom Title"
-    variant={null}
+    variant="full-width"
   >
     home.svg
   </svg>
@@ -56,7 +56,7 @@ exports[`Storyshots Icons Default 1`] = `
   <svg
     className="icon"
     title="home"
-    variant={null}
+    variant="full-width"
   >
     home.svg
   </svg>
@@ -71,7 +71,7 @@ exports[`Storyshots Icons Fallback 1`] = `
   <svg
     className="icon"
     title="fallback"
-    variant={null}
+    variant="full-width"
   >
     svg.svg
   </svg>
@@ -81,12 +81,12 @@ exports[`Storyshots Icons Fallback 1`] = `
 exports[`Storyshots Icons Large 1`] = `
 <div
   className="container"
-  variant="normal"
+  variant="large"
 >
   <svg
     className="icon"
     title="home"
-    variant={null}
+    variant="full-width"
   >
     home.svg
   </svg>
@@ -96,12 +96,12 @@ exports[`Storyshots Icons Large 1`] = `
 exports[`Storyshots Icons Largest 1`] = `
 <div
   className="container"
-  variant="normal"
+  variant="largest"
 >
   <svg
     className="icon"
     title="home"
-    variant={null}
+    variant="full-width"
   >
     home.svg
   </svg>
@@ -128,7 +128,7 @@ exports[`Storyshots Icons No Title 1`] = `
   <svg
     className="icon"
     title={null}
-    variant={null}
+    variant="full-width"
   >
     home.svg
   </svg>
@@ -147,7 +147,7 @@ Array [
       <svg
         className="icon"
         title="500px"
-        variant={null}
+        variant="full-width"
       >
         500px.svg
       </svg>
@@ -163,7 +163,7 @@ Array [
       <svg
         className="icon"
         title="accessibility"
-        variant={null}
+        variant="full-width"
       >
         accessibility.svg
       </svg>
@@ -179,7 +179,7 @@ Array [
       <svg
         className="icon"
         title="address-book"
-        variant={null}
+        variant="full-width"
       >
         address-book.svg
       </svg>
@@ -195,7 +195,7 @@ Array [
       <svg
         className="icon"
         title="aid-kit"
-        variant={null}
+        variant="full-width"
       >
         aid-kit.svg
       </svg>
@@ -211,7 +211,7 @@ Array [
       <svg
         className="icon"
         title="airplane"
-        variant={null}
+        variant="full-width"
       >
         airplane.svg
       </svg>
@@ -227,7 +227,7 @@ Array [
       <svg
         className="icon"
         title="alarm"
-        variant={null}
+        variant="full-width"
       >
         alarm.svg
       </svg>
@@ -243,7 +243,7 @@ Array [
       <svg
         className="icon"
         title="amazon"
-        variant={null}
+        variant="full-width"
       >
         amazon.svg
       </svg>
@@ -259,7 +259,7 @@ Array [
       <svg
         className="icon"
         title="android"
-        variant={null}
+        variant="full-width"
       >
         android.svg
       </svg>
@@ -275,7 +275,7 @@ Array [
       <svg
         className="icon"
         title="angry-2"
-        variant={null}
+        variant="full-width"
       >
         angry-2.svg
       </svg>
@@ -291,7 +291,7 @@ Array [
       <svg
         className="icon"
         title="angry"
-        variant={null}
+        variant="full-width"
       >
         angry.svg
       </svg>
@@ -307,7 +307,7 @@ Array [
       <svg
         className="icon"
         title="appleinc"
-        variant={null}
+        variant="full-width"
       >
         appleinc.svg
       </svg>
@@ -323,7 +323,7 @@ Array [
       <svg
         className="icon"
         title="arrow-down-2"
-        variant={null}
+        variant="full-width"
       >
         arrow-down-2.svg
       </svg>
@@ -339,7 +339,7 @@ Array [
       <svg
         className="icon"
         title="arrow-down-left-2"
-        variant={null}
+        variant="full-width"
       >
         arrow-down-left-2.svg
       </svg>
@@ -355,7 +355,7 @@ Array [
       <svg
         className="icon"
         title="arrow-down-left"
-        variant={null}
+        variant="full-width"
       >
         arrow-down-left.svg
       </svg>
@@ -371,7 +371,7 @@ Array [
       <svg
         className="icon"
         title="arrow-down-right-2"
-        variant={null}
+        variant="full-width"
       >
         arrow-down-right-2.svg
       </svg>
@@ -387,7 +387,7 @@ Array [
       <svg
         className="icon"
         title="arrow-down-right"
-        variant={null}
+        variant="full-width"
       >
         arrow-down-right.svg
       </svg>
@@ -403,7 +403,7 @@ Array [
       <svg
         className="icon"
         title="arrow-down"
-        variant={null}
+        variant="full-width"
       >
         arrow-down.svg
       </svg>
@@ -419,7 +419,7 @@ Array [
       <svg
         className="icon"
         title="arrow-left-2"
-        variant={null}
+        variant="full-width"
       >
         arrow-left-2.svg
       </svg>
@@ -435,7 +435,7 @@ Array [
       <svg
         className="icon"
         title="arrow-left"
-        variant={null}
+        variant="full-width"
       >
         arrow-left.svg
       </svg>
@@ -451,7 +451,7 @@ Array [
       <svg
         className="icon"
         title="arrow-right-2"
-        variant={null}
+        variant="full-width"
       >
         arrow-right-2.svg
       </svg>
@@ -467,7 +467,7 @@ Array [
       <svg
         className="icon"
         title="arrow-right"
-        variant={null}
+        variant="full-width"
       >
         arrow-right.svg
       </svg>
@@ -483,7 +483,7 @@ Array [
       <svg
         className="icon"
         title="arrow-up-2"
-        variant={null}
+        variant="full-width"
       >
         arrow-up-2.svg
       </svg>
@@ -499,7 +499,7 @@ Array [
       <svg
         className="icon"
         title="arrow-up-left-2"
-        variant={null}
+        variant="full-width"
       >
         arrow-up-left-2.svg
       </svg>
@@ -515,7 +515,7 @@ Array [
       <svg
         className="icon"
         title="arrow-up-left"
-        variant={null}
+        variant="full-width"
       >
         arrow-up-left.svg
       </svg>
@@ -531,7 +531,7 @@ Array [
       <svg
         className="icon"
         title="arrow-up-right-2"
-        variant={null}
+        variant="full-width"
       >
         arrow-up-right-2.svg
       </svg>
@@ -547,7 +547,7 @@ Array [
       <svg
         className="icon"
         title="arrow-up-right"
-        variant={null}
+        variant="full-width"
       >
         arrow-up-right.svg
       </svg>
@@ -563,7 +563,7 @@ Array [
       <svg
         className="icon"
         title="arrow-up"
-        variant={null}
+        variant="full-width"
       >
         arrow-up.svg
       </svg>
@@ -579,7 +579,7 @@ Array [
       <svg
         className="icon"
         title="attachment"
-        variant={null}
+        variant="full-width"
       >
         attachment.svg
       </svg>
@@ -595,7 +595,7 @@ Array [
       <svg
         className="icon"
         title="backward-2"
-        variant={null}
+        variant="full-width"
       >
         backward-2.svg
       </svg>
@@ -611,7 +611,7 @@ Array [
       <svg
         className="icon"
         title="backward"
-        variant={null}
+        variant="full-width"
       >
         backward.svg
       </svg>
@@ -627,7 +627,7 @@ Array [
       <svg
         className="icon"
         title="baffled-2"
-        variant={null}
+        variant="full-width"
       >
         baffled-2.svg
       </svg>
@@ -643,7 +643,7 @@ Array [
       <svg
         className="icon"
         title="baffled"
-        variant={null}
+        variant="full-width"
       >
         baffled.svg
       </svg>
@@ -659,7 +659,7 @@ Array [
       <svg
         className="icon"
         title="barcode"
-        variant={null}
+        variant="full-width"
       >
         barcode.svg
       </svg>
@@ -675,7 +675,7 @@ Array [
       <svg
         className="icon"
         title="basecamp"
-        variant={null}
+        variant="full-width"
       >
         basecamp.svg
       </svg>
@@ -691,7 +691,7 @@ Array [
       <svg
         className="icon"
         title="behance-2"
-        variant={null}
+        variant="full-width"
       >
         behance-2.svg
       </svg>
@@ -707,7 +707,7 @@ Array [
       <svg
         className="icon"
         title="behance"
-        variant={null}
+        variant="full-width"
       >
         behance.svg
       </svg>
@@ -723,7 +723,7 @@ Array [
       <svg
         className="icon"
         title="bell"
-        variant={null}
+        variant="full-width"
       >
         bell.svg
       </svg>
@@ -739,7 +739,7 @@ Array [
       <svg
         className="icon"
         title="bin-2"
-        variant={null}
+        variant="full-width"
       >
         bin-2.svg
       </svg>
@@ -755,7 +755,7 @@ Array [
       <svg
         className="icon"
         title="bin"
-        variant={null}
+        variant="full-width"
       >
         bin.svg
       </svg>
@@ -771,7 +771,7 @@ Array [
       <svg
         className="icon"
         title="binoculars"
-        variant={null}
+        variant="full-width"
       >
         binoculars.svg
       </svg>
@@ -787,7 +787,7 @@ Array [
       <svg
         className="icon"
         title="blocked"
-        variant={null}
+        variant="full-width"
       >
         blocked.svg
       </svg>
@@ -803,7 +803,7 @@ Array [
       <svg
         className="icon"
         title="blog"
-        variant={null}
+        variant="full-width"
       >
         blog.svg
       </svg>
@@ -819,7 +819,7 @@ Array [
       <svg
         className="icon"
         title="blogger-2"
-        variant={null}
+        variant="full-width"
       >
         blogger-2.svg
       </svg>
@@ -835,7 +835,7 @@ Array [
       <svg
         className="icon"
         title="blogger"
-        variant={null}
+        variant="full-width"
       >
         blogger.svg
       </svg>
@@ -851,7 +851,7 @@ Array [
       <svg
         className="icon"
         title="bold"
-        variant={null}
+        variant="full-width"
       >
         bold.svg
       </svg>
@@ -867,7 +867,7 @@ Array [
       <svg
         className="icon"
         title="book"
-        variant={null}
+        variant="full-width"
       >
         book.svg
       </svg>
@@ -883,7 +883,7 @@ Array [
       <svg
         className="icon"
         title="bookmark"
-        variant={null}
+        variant="full-width"
       >
         bookmark.svg
       </svg>
@@ -899,7 +899,7 @@ Array [
       <svg
         className="icon"
         title="bookmarks"
-        variant={null}
+        variant="full-width"
       >
         bookmarks.svg
       </svg>
@@ -915,7 +915,7 @@ Array [
       <svg
         className="icon"
         title="books"
-        variant={null}
+        variant="full-width"
       >
         books.svg
       </svg>
@@ -931,7 +931,7 @@ Array [
       <svg
         className="icon"
         title="box-add"
-        variant={null}
+        variant="full-width"
       >
         box-add.svg
       </svg>
@@ -947,7 +947,7 @@ Array [
       <svg
         className="icon"
         title="box-remove"
-        variant={null}
+        variant="full-width"
       >
         box-remove.svg
       </svg>
@@ -963,7 +963,7 @@ Array [
       <svg
         className="icon"
         title="briefcase"
-        variant={null}
+        variant="full-width"
       >
         briefcase.svg
       </svg>
@@ -979,7 +979,7 @@ Array [
       <svg
         className="icon"
         title="brightness-contrast"
-        variant={null}
+        variant="full-width"
       >
         brightness-contrast.svg
       </svg>
@@ -995,7 +995,7 @@ Array [
       <svg
         className="icon"
         title="bubble-2"
-        variant={null}
+        variant="full-width"
       >
         bubble-2.svg
       </svg>
@@ -1011,7 +1011,7 @@ Array [
       <svg
         className="icon"
         title="bubble"
-        variant={null}
+        variant="full-width"
       >
         bubble.svg
       </svg>
@@ -1027,7 +1027,7 @@ Array [
       <svg
         className="icon"
         title="bubbles-2"
-        variant={null}
+        variant="full-width"
       >
         bubbles-2.svg
       </svg>
@@ -1043,7 +1043,7 @@ Array [
       <svg
         className="icon"
         title="bubbles-3"
-        variant={null}
+        variant="full-width"
       >
         bubbles-3.svg
       </svg>
@@ -1059,7 +1059,7 @@ Array [
       <svg
         className="icon"
         title="bubbles-4"
-        variant={null}
+        variant="full-width"
       >
         bubbles-4.svg
       </svg>
@@ -1075,7 +1075,7 @@ Array [
       <svg
         className="icon"
         title="bubbles"
-        variant={null}
+        variant="full-width"
       >
         bubbles.svg
       </svg>
@@ -1091,7 +1091,7 @@ Array [
       <svg
         className="icon"
         title="bug"
-        variant={null}
+        variant="full-width"
       >
         bug.svg
       </svg>
@@ -1107,7 +1107,7 @@ Array [
       <svg
         className="icon"
         title="bullhorn"
-        variant={null}
+        variant="full-width"
       >
         bullhorn.svg
       </svg>
@@ -1123,7 +1123,7 @@ Array [
       <svg
         className="icon"
         title="calculator"
-        variant={null}
+        variant="full-width"
       >
         calculator.svg
       </svg>
@@ -1139,7 +1139,7 @@ Array [
       <svg
         className="icon"
         title="calendar"
-        variant={null}
+        variant="full-width"
       >
         calendar.svg
       </svg>
@@ -1155,7 +1155,7 @@ Array [
       <svg
         className="icon"
         title="camera"
-        variant={null}
+        variant="full-width"
       >
         camera.svg
       </svg>
@@ -1171,7 +1171,7 @@ Array [
       <svg
         className="icon"
         title="cancel-circle"
-        variant={null}
+        variant="full-width"
       >
         cancel-circle.svg
       </svg>
@@ -1187,7 +1187,7 @@ Array [
       <svg
         className="icon"
         title="cart"
-        variant={null}
+        variant="full-width"
       >
         cart.svg
       </svg>
@@ -1203,7 +1203,7 @@ Array [
       <svg
         className="icon"
         title="checkbox-checked"
-        variant={null}
+        variant="full-width"
       >
         checkbox-checked.svg
       </svg>
@@ -1219,7 +1219,7 @@ Array [
       <svg
         className="icon"
         title="checkbox-unchecked"
-        variant={null}
+        variant="full-width"
       >
         checkbox-unchecked.svg
       </svg>
@@ -1235,7 +1235,7 @@ Array [
       <svg
         className="icon"
         title="checkmark-2"
-        variant={null}
+        variant="full-width"
       >
         checkmark-2.svg
       </svg>
@@ -1251,7 +1251,7 @@ Array [
       <svg
         className="icon"
         title="checkmark"
-        variant={null}
+        variant="full-width"
       >
         checkmark.svg
       </svg>
@@ -1267,7 +1267,7 @@ Array [
       <svg
         className="icon"
         title="chrome"
-        variant={null}
+        variant="full-width"
       >
         chrome.svg
       </svg>
@@ -1283,7 +1283,7 @@ Array [
       <svg
         className="icon"
         title="circle-down"
-        variant={null}
+        variant="full-width"
       >
         circle-down.svg
       </svg>
@@ -1299,7 +1299,7 @@ Array [
       <svg
         className="icon"
         title="circle-left"
-        variant={null}
+        variant="full-width"
       >
         circle-left.svg
       </svg>
@@ -1315,7 +1315,7 @@ Array [
       <svg
         className="icon"
         title="circle-right"
-        variant={null}
+        variant="full-width"
       >
         circle-right.svg
       </svg>
@@ -1331,7 +1331,7 @@ Array [
       <svg
         className="icon"
         title="circle-up"
-        variant={null}
+        variant="full-width"
       >
         circle-up.svg
       </svg>
@@ -1347,7 +1347,7 @@ Array [
       <svg
         className="icon"
         title="clear-formatting"
-        variant={null}
+        variant="full-width"
       >
         clear-formatting.svg
       </svg>
@@ -1363,7 +1363,7 @@ Array [
       <svg
         className="icon"
         title="clipboard"
-        variant={null}
+        variant="full-width"
       >
         clipboard.svg
       </svg>
@@ -1379,7 +1379,7 @@ Array [
       <svg
         className="icon"
         title="clock-2"
-        variant={null}
+        variant="full-width"
       >
         clock-2.svg
       </svg>
@@ -1395,7 +1395,7 @@ Array [
       <svg
         className="icon"
         title="clock"
-        variant={null}
+        variant="full-width"
       >
         clock.svg
       </svg>
@@ -1411,7 +1411,7 @@ Array [
       <svg
         className="icon"
         title="cloud-check"
-        variant={null}
+        variant="full-width"
       >
         cloud-check.svg
       </svg>
@@ -1427,7 +1427,7 @@ Array [
       <svg
         className="icon"
         title="cloud-download"
-        variant={null}
+        variant="full-width"
       >
         cloud-download.svg
       </svg>
@@ -1443,7 +1443,7 @@ Array [
       <svg
         className="icon"
         title="cloud-upload"
-        variant={null}
+        variant="full-width"
       >
         cloud-upload.svg
       </svg>
@@ -1459,7 +1459,7 @@ Array [
       <svg
         className="icon"
         title="cloud"
-        variant={null}
+        variant="full-width"
       >
         cloud.svg
       </svg>
@@ -1475,7 +1475,7 @@ Array [
       <svg
         className="icon"
         title="clubs"
-        variant={null}
+        variant="full-width"
       >
         clubs.svg
       </svg>
@@ -1491,7 +1491,7 @@ Array [
       <svg
         className="icon"
         title="codepen"
-        variant={null}
+        variant="full-width"
       >
         codepen.svg
       </svg>
@@ -1507,7 +1507,7 @@ Array [
       <svg
         className="icon"
         title="cog"
-        variant={null}
+        variant="full-width"
       >
         cog.svg
       </svg>
@@ -1523,7 +1523,7 @@ Array [
       <svg
         className="icon"
         title="cogs"
-        variant={null}
+        variant="full-width"
       >
         cogs.svg
       </svg>
@@ -1539,7 +1539,7 @@ Array [
       <svg
         className="icon"
         title="coin-dollar"
-        variant={null}
+        variant="full-width"
       >
         coin-dollar.svg
       </svg>
@@ -1555,7 +1555,7 @@ Array [
       <svg
         className="icon"
         title="coin-euro"
-        variant={null}
+        variant="full-width"
       >
         coin-euro.svg
       </svg>
@@ -1571,7 +1571,7 @@ Array [
       <svg
         className="icon"
         title="coin-pound"
-        variant={null}
+        variant="full-width"
       >
         coin-pound.svg
       </svg>
@@ -1587,7 +1587,7 @@ Array [
       <svg
         className="icon"
         title="coin-yen"
-        variant={null}
+        variant="full-width"
       >
         coin-yen.svg
       </svg>
@@ -1603,7 +1603,7 @@ Array [
       <svg
         className="icon"
         title="command"
-        variant={null}
+        variant="full-width"
       >
         command.svg
       </svg>
@@ -1619,7 +1619,7 @@ Array [
       <svg
         className="icon"
         title="compass-2"
-        variant={null}
+        variant="full-width"
       >
         compass-2.svg
       </svg>
@@ -1635,7 +1635,7 @@ Array [
       <svg
         className="icon"
         title="compass"
-        variant={null}
+        variant="full-width"
       >
         compass.svg
       </svg>
@@ -1651,7 +1651,7 @@ Array [
       <svg
         className="icon"
         title="confused-2"
-        variant={null}
+        variant="full-width"
       >
         confused-2.svg
       </svg>
@@ -1667,7 +1667,7 @@ Array [
       <svg
         className="icon"
         title="confused"
-        variant={null}
+        variant="full-width"
       >
         confused.svg
       </svg>
@@ -1683,7 +1683,7 @@ Array [
       <svg
         className="icon"
         title="connection"
-        variant={null}
+        variant="full-width"
       >
         connection.svg
       </svg>
@@ -1699,7 +1699,7 @@ Array [
       <svg
         className="icon"
         title="contrast"
-        variant={null}
+        variant="full-width"
       >
         contrast.svg
       </svg>
@@ -1715,7 +1715,7 @@ Array [
       <svg
         className="icon"
         title="cool-2"
-        variant={null}
+        variant="full-width"
       >
         cool-2.svg
       </svg>
@@ -1731,7 +1731,7 @@ Array [
       <svg
         className="icon"
         title="cool"
-        variant={null}
+        variant="full-width"
       >
         cool.svg
       </svg>
@@ -1747,7 +1747,7 @@ Array [
       <svg
         className="icon"
         title="copy"
-        variant={null}
+        variant="full-width"
       >
         copy.svg
       </svg>
@@ -1763,7 +1763,7 @@ Array [
       <svg
         className="icon"
         title="credit-card"
-        variant={null}
+        variant="full-width"
       >
         credit-card.svg
       </svg>
@@ -1779,7 +1779,7 @@ Array [
       <svg
         className="icon"
         title="crop"
-        variant={null}
+        variant="full-width"
       >
         crop.svg
       </svg>
@@ -1795,7 +1795,7 @@ Array [
       <svg
         className="icon"
         title="cross"
-        variant={null}
+        variant="full-width"
       >
         cross.svg
       </svg>
@@ -1811,7 +1811,7 @@ Array [
       <svg
         className="icon"
         title="crying-2"
-        variant={null}
+        variant="full-width"
       >
         crying-2.svg
       </svg>
@@ -1827,7 +1827,7 @@ Array [
       <svg
         className="icon"
         title="crying"
-        variant={null}
+        variant="full-width"
       >
         crying.svg
       </svg>
@@ -1843,7 +1843,7 @@ Array [
       <svg
         className="icon"
         title="css-3"
-        variant={null}
+        variant="full-width"
       >
         css-3.svg
       </svg>
@@ -1859,7 +1859,7 @@ Array [
       <svg
         className="icon"
         title="ctrl"
-        variant={null}
+        variant="full-width"
       >
         ctrl.svg
       </svg>
@@ -1875,7 +1875,7 @@ Array [
       <svg
         className="icon"
         title="database"
-        variant={null}
+        variant="full-width"
       >
         database.svg
       </svg>
@@ -1891,7 +1891,7 @@ Array [
       <svg
         className="icon"
         title="delicious"
-        variant={null}
+        variant="full-width"
       >
         delicious.svg
       </svg>
@@ -1907,7 +1907,7 @@ Array [
       <svg
         className="icon"
         title="deviantart"
-        variant={null}
+        variant="full-width"
       >
         deviantart.svg
       </svg>
@@ -1923,7 +1923,7 @@ Array [
       <svg
         className="icon"
         title="diamonds"
-        variant={null}
+        variant="full-width"
       >
         diamonds.svg
       </svg>
@@ -1939,7 +1939,7 @@ Array [
       <svg
         className="icon"
         title="dice"
-        variant={null}
+        variant="full-width"
       >
         dice.svg
       </svg>
@@ -1955,7 +1955,7 @@ Array [
       <svg
         className="icon"
         title="display"
-        variant={null}
+        variant="full-width"
       >
         display.svg
       </svg>
@@ -1971,7 +1971,7 @@ Array [
       <svg
         className="icon"
         title="download-2"
-        variant={null}
+        variant="full-width"
       >
         download-2.svg
       </svg>
@@ -1987,7 +1987,7 @@ Array [
       <svg
         className="icon"
         title="download-3"
-        variant={null}
+        variant="full-width"
       >
         download-3.svg
       </svg>
@@ -2003,7 +2003,7 @@ Array [
       <svg
         className="icon"
         title="download"
-        variant={null}
+        variant="full-width"
       >
         download.svg
       </svg>
@@ -2019,7 +2019,7 @@ Array [
       <svg
         className="icon"
         title="drawer-2"
-        variant={null}
+        variant="full-width"
       >
         drawer-2.svg
       </svg>
@@ -2035,7 +2035,7 @@ Array [
       <svg
         className="icon"
         title="drawer"
-        variant={null}
+        variant="full-width"
       >
         drawer.svg
       </svg>
@@ -2051,7 +2051,7 @@ Array [
       <svg
         className="icon"
         title="dribbble"
-        variant={null}
+        variant="full-width"
       >
         dribbble.svg
       </svg>
@@ -2067,7 +2067,7 @@ Array [
       <svg
         className="icon"
         title="drive"
-        variant={null}
+        variant="full-width"
       >
         drive.svg
       </svg>
@@ -2083,7 +2083,7 @@ Array [
       <svg
         className="icon"
         title="dropbox"
-        variant={null}
+        variant="full-width"
       >
         dropbox.svg
       </svg>
@@ -2099,7 +2099,7 @@ Array [
       <svg
         className="icon"
         title="droplet"
-        variant={null}
+        variant="full-width"
       >
         droplet.svg
       </svg>
@@ -2115,7 +2115,7 @@ Array [
       <svg
         className="icon"
         title="earth"
-        variant={null}
+        variant="full-width"
       >
         earth.svg
       </svg>
@@ -2131,7 +2131,7 @@ Array [
       <svg
         className="icon"
         title="edge"
-        variant={null}
+        variant="full-width"
       >
         edge.svg
       </svg>
@@ -2147,7 +2147,7 @@ Array [
       <svg
         className="icon"
         title="eject"
-        variant={null}
+        variant="full-width"
       >
         eject.svg
       </svg>
@@ -2163,7 +2163,7 @@ Array [
       <svg
         className="icon"
         title="ello"
-        variant={null}
+        variant="full-width"
       >
         ello.svg
       </svg>
@@ -2179,7 +2179,7 @@ Array [
       <svg
         className="icon"
         title="embed-2"
-        variant={null}
+        variant="full-width"
       >
         embed-2.svg
       </svg>
@@ -2195,7 +2195,7 @@ Array [
       <svg
         className="icon"
         title="embed"
-        variant={null}
+        variant="full-width"
       >
         embed.svg
       </svg>
@@ -2211,7 +2211,7 @@ Array [
       <svg
         className="icon"
         title="enlarge-2"
-        variant={null}
+        variant="full-width"
       >
         enlarge-2.svg
       </svg>
@@ -2227,7 +2227,7 @@ Array [
       <svg
         className="icon"
         title="enlarge"
-        variant={null}
+        variant="full-width"
       >
         enlarge.svg
       </svg>
@@ -2243,7 +2243,7 @@ Array [
       <svg
         className="icon"
         title="enter"
-        variant={null}
+        variant="full-width"
       >
         enter.svg
       </svg>
@@ -2259,7 +2259,7 @@ Array [
       <svg
         className="icon"
         title="envelop"
-        variant={null}
+        variant="full-width"
       >
         envelop.svg
       </svg>
@@ -2275,7 +2275,7 @@ Array [
       <svg
         className="icon"
         title="equalizer-2"
-        variant={null}
+        variant="full-width"
       >
         equalizer-2.svg
       </svg>
@@ -2291,7 +2291,7 @@ Array [
       <svg
         className="icon"
         title="equalizer"
-        variant={null}
+        variant="full-width"
       >
         equalizer.svg
       </svg>
@@ -2307,7 +2307,7 @@ Array [
       <svg
         className="icon"
         title="evil-2"
-        variant={null}
+        variant="full-width"
       >
         evil-2.svg
       </svg>
@@ -2323,7 +2323,7 @@ Array [
       <svg
         className="icon"
         title="evil"
-        variant={null}
+        variant="full-width"
       >
         evil.svg
       </svg>
@@ -2339,7 +2339,7 @@ Array [
       <svg
         className="icon"
         title="exit"
-        variant={null}
+        variant="full-width"
       >
         exit.svg
       </svg>
@@ -2355,7 +2355,7 @@ Array [
       <svg
         className="icon"
         title="eye-blocked"
-        variant={null}
+        variant="full-width"
       >
         eye-blocked.svg
       </svg>
@@ -2371,7 +2371,7 @@ Array [
       <svg
         className="icon"
         title="eye-minus"
-        variant={null}
+        variant="full-width"
       >
         eye-minus.svg
       </svg>
@@ -2387,7 +2387,7 @@ Array [
       <svg
         className="icon"
         title="eye-plus"
-        variant={null}
+        variant="full-width"
       >
         eye-plus.svg
       </svg>
@@ -2403,7 +2403,7 @@ Array [
       <svg
         className="icon"
         title="eye"
-        variant={null}
+        variant="full-width"
       >
         eye.svg
       </svg>
@@ -2419,7 +2419,7 @@ Array [
       <svg
         className="icon"
         title="eyedropper"
-        variant={null}
+        variant="full-width"
       >
         eyedropper.svg
       </svg>
@@ -2435,7 +2435,7 @@ Array [
       <svg
         className="icon"
         title="facebook-2"
-        variant={null}
+        variant="full-width"
       >
         facebook-2.svg
       </svg>
@@ -2451,7 +2451,7 @@ Array [
       <svg
         className="icon"
         title="facebook"
-        variant={null}
+        variant="full-width"
       >
         facebook.svg
       </svg>
@@ -2467,7 +2467,7 @@ Array [
       <svg
         className="icon"
         title="feed"
-        variant={null}
+        variant="full-width"
       >
         feed.svg
       </svg>
@@ -2483,7 +2483,7 @@ Array [
       <svg
         className="icon"
         title="file-empty"
-        variant={null}
+        variant="full-width"
       >
         file-empty.svg
       </svg>
@@ -2499,7 +2499,7 @@ Array [
       <svg
         className="icon"
         title="file-excel"
-        variant={null}
+        variant="full-width"
       >
         file-excel.svg
       </svg>
@@ -2515,7 +2515,7 @@ Array [
       <svg
         className="icon"
         title="file-music"
-        variant={null}
+        variant="full-width"
       >
         file-music.svg
       </svg>
@@ -2531,7 +2531,7 @@ Array [
       <svg
         className="icon"
         title="file-openoffice"
-        variant={null}
+        variant="full-width"
       >
         file-openoffice.svg
       </svg>
@@ -2547,7 +2547,7 @@ Array [
       <svg
         className="icon"
         title="file-pdf"
-        variant={null}
+        variant="full-width"
       >
         file-pdf.svg
       </svg>
@@ -2563,7 +2563,7 @@ Array [
       <svg
         className="icon"
         title="file-picture"
-        variant={null}
+        variant="full-width"
       >
         file-picture.svg
       </svg>
@@ -2579,7 +2579,7 @@ Array [
       <svg
         className="icon"
         title="file-play"
-        variant={null}
+        variant="full-width"
       >
         file-play.svg
       </svg>
@@ -2595,7 +2595,7 @@ Array [
       <svg
         className="icon"
         title="file-text-2"
-        variant={null}
+        variant="full-width"
       >
         file-text-2.svg
       </svg>
@@ -2611,7 +2611,7 @@ Array [
       <svg
         className="icon"
         title="file-text"
-        variant={null}
+        variant="full-width"
       >
         file-text.svg
       </svg>
@@ -2627,7 +2627,7 @@ Array [
       <svg
         className="icon"
         title="file-video"
-        variant={null}
+        variant="full-width"
       >
         file-video.svg
       </svg>
@@ -2643,7 +2643,7 @@ Array [
       <svg
         className="icon"
         title="file-word"
-        variant={null}
+        variant="full-width"
       >
         file-word.svg
       </svg>
@@ -2659,7 +2659,7 @@ Array [
       <svg
         className="icon"
         title="file-zip"
-        variant={null}
+        variant="full-width"
       >
         file-zip.svg
       </svg>
@@ -2675,7 +2675,7 @@ Array [
       <svg
         className="icon"
         title="files-empty"
-        variant={null}
+        variant="full-width"
       >
         files-empty.svg
       </svg>
@@ -2691,7 +2691,7 @@ Array [
       <svg
         className="icon"
         title="film"
-        variant={null}
+        variant="full-width"
       >
         film.svg
       </svg>
@@ -2707,7 +2707,7 @@ Array [
       <svg
         className="icon"
         title="filter"
-        variant={null}
+        variant="full-width"
       >
         filter.svg
       </svg>
@@ -2723,7 +2723,7 @@ Array [
       <svg
         className="icon"
         title="finder"
-        variant={null}
+        variant="full-width"
       >
         finder.svg
       </svg>
@@ -2739,7 +2739,7 @@ Array [
       <svg
         className="icon"
         title="fire"
-        variant={null}
+        variant="full-width"
       >
         fire.svg
       </svg>
@@ -2755,7 +2755,7 @@ Array [
       <svg
         className="icon"
         title="firefox"
-        variant={null}
+        variant="full-width"
       >
         firefox.svg
       </svg>
@@ -2771,7 +2771,7 @@ Array [
       <svg
         className="icon"
         title="first"
-        variant={null}
+        variant="full-width"
       >
         first.svg
       </svg>
@@ -2787,7 +2787,7 @@ Array [
       <svg
         className="icon"
         title="flag"
-        variant={null}
+        variant="full-width"
       >
         flag.svg
       </svg>
@@ -2803,7 +2803,7 @@ Array [
       <svg
         className="icon"
         title="flattr"
-        variant={null}
+        variant="full-width"
       >
         flattr.svg
       </svg>
@@ -2819,7 +2819,7 @@ Array [
       <svg
         className="icon"
         title="flickr-2"
-        variant={null}
+        variant="full-width"
       >
         flickr-2.svg
       </svg>
@@ -2835,7 +2835,7 @@ Array [
       <svg
         className="icon"
         title="flickr-3"
-        variant={null}
+        variant="full-width"
       >
         flickr-3.svg
       </svg>
@@ -2851,7 +2851,7 @@ Array [
       <svg
         className="icon"
         title="flickr-4"
-        variant={null}
+        variant="full-width"
       >
         flickr-4.svg
       </svg>
@@ -2867,7 +2867,7 @@ Array [
       <svg
         className="icon"
         title="flickr"
-        variant={null}
+        variant="full-width"
       >
         flickr.svg
       </svg>
@@ -2883,7 +2883,7 @@ Array [
       <svg
         className="icon"
         title="floppy-disk"
-        variant={null}
+        variant="full-width"
       >
         floppy-disk.svg
       </svg>
@@ -2899,7 +2899,7 @@ Array [
       <svg
         className="icon"
         title="folder-download"
-        variant={null}
+        variant="full-width"
       >
         folder-download.svg
       </svg>
@@ -2915,7 +2915,7 @@ Array [
       <svg
         className="icon"
         title="folder-minus"
-        variant={null}
+        variant="full-width"
       >
         folder-minus.svg
       </svg>
@@ -2931,7 +2931,7 @@ Array [
       <svg
         className="icon"
         title="folder-open"
-        variant={null}
+        variant="full-width"
       >
         folder-open.svg
       </svg>
@@ -2947,7 +2947,7 @@ Array [
       <svg
         className="icon"
         title="folder-plus"
-        variant={null}
+        variant="full-width"
       >
         folder-plus.svg
       </svg>
@@ -2963,7 +2963,7 @@ Array [
       <svg
         className="icon"
         title="folder-upload"
-        variant={null}
+        variant="full-width"
       >
         folder-upload.svg
       </svg>
@@ -2979,7 +2979,7 @@ Array [
       <svg
         className="icon"
         title="folder"
-        variant={null}
+        variant="full-width"
       >
         folder.svg
       </svg>
@@ -2995,7 +2995,7 @@ Array [
       <svg
         className="icon"
         title="font-size"
-        variant={null}
+        variant="full-width"
       >
         font-size.svg
       </svg>
@@ -3011,7 +3011,7 @@ Array [
       <svg
         className="icon"
         title="font"
-        variant={null}
+        variant="full-width"
       >
         font.svg
       </svg>
@@ -3027,7 +3027,7 @@ Array [
       <svg
         className="icon"
         title="forward-2"
-        variant={null}
+        variant="full-width"
       >
         forward-2.svg
       </svg>
@@ -3043,7 +3043,7 @@ Array [
       <svg
         className="icon"
         title="forward-3"
-        variant={null}
+        variant="full-width"
       >
         forward-3.svg
       </svg>
@@ -3059,7 +3059,7 @@ Array [
       <svg
         className="icon"
         title="forward"
-        variant={null}
+        variant="full-width"
       >
         forward.svg
       </svg>
@@ -3075,7 +3075,7 @@ Array [
       <svg
         className="icon"
         title="foursquare"
-        variant={null}
+        variant="full-width"
       >
         foursquare.svg
       </svg>
@@ -3091,7 +3091,7 @@ Array [
       <svg
         className="icon"
         title="frustrated-2"
-        variant={null}
+        variant="full-width"
       >
         frustrated-2.svg
       </svg>
@@ -3107,7 +3107,7 @@ Array [
       <svg
         className="icon"
         title="frustrated"
-        variant={null}
+        variant="full-width"
       >
         frustrated.svg
       </svg>
@@ -3123,7 +3123,7 @@ Array [
       <svg
         className="icon"
         title="gift"
-        variant={null}
+        variant="full-width"
       >
         gift.svg
       </svg>
@@ -3139,7 +3139,7 @@ Array [
       <svg
         className="icon"
         title="git"
-        variant={null}
+        variant="full-width"
       >
         git.svg
       </svg>
@@ -3155,7 +3155,7 @@ Array [
       <svg
         className="icon"
         title="github"
-        variant={null}
+        variant="full-width"
       >
         github.svg
       </svg>
@@ -3171,7 +3171,7 @@ Array [
       <svg
         className="icon"
         title="glass-2"
-        variant={null}
+        variant="full-width"
       >
         glass-2.svg
       </svg>
@@ -3187,7 +3187,7 @@ Array [
       <svg
         className="icon"
         title="glass"
-        variant={null}
+        variant="full-width"
       >
         glass.svg
       </svg>
@@ -3203,7 +3203,7 @@ Array [
       <svg
         className="icon"
         title="google-2"
-        variant={null}
+        variant="full-width"
       >
         google-2.svg
       </svg>
@@ -3219,7 +3219,7 @@ Array [
       <svg
         className="icon"
         title="google-3"
-        variant={null}
+        variant="full-width"
       >
         google-3.svg
       </svg>
@@ -3235,7 +3235,7 @@ Array [
       <svg
         className="icon"
         title="google-drive"
-        variant={null}
+        variant="full-width"
       >
         google-drive.svg
       </svg>
@@ -3251,7 +3251,7 @@ Array [
       <svg
         className="icon"
         title="google-plus-2"
-        variant={null}
+        variant="full-width"
       >
         google-plus-2.svg
       </svg>
@@ -3267,7 +3267,7 @@ Array [
       <svg
         className="icon"
         title="google-plus-3"
-        variant={null}
+        variant="full-width"
       >
         google-plus-3.svg
       </svg>
@@ -3283,7 +3283,7 @@ Array [
       <svg
         className="icon"
         title="google-plus"
-        variant={null}
+        variant="full-width"
       >
         google-plus.svg
       </svg>
@@ -3299,7 +3299,7 @@ Array [
       <svg
         className="icon"
         title="google"
-        variant={null}
+        variant="full-width"
       >
         google.svg
       </svg>
@@ -3315,7 +3315,7 @@ Array [
       <svg
         className="icon"
         title="grin-2"
-        variant={null}
+        variant="full-width"
       >
         grin-2.svg
       </svg>
@@ -3331,7 +3331,7 @@ Array [
       <svg
         className="icon"
         title="grin"
-        variant={null}
+        variant="full-width"
       >
         grin.svg
       </svg>
@@ -3347,7 +3347,7 @@ Array [
       <svg
         className="icon"
         title="hackernews"
-        variant={null}
+        variant="full-width"
       >
         hackernews.svg
       </svg>
@@ -3363,7 +3363,7 @@ Array [
       <svg
         className="icon"
         title="hammer-2"
-        variant={null}
+        variant="full-width"
       >
         hammer-2.svg
       </svg>
@@ -3379,7 +3379,7 @@ Array [
       <svg
         className="icon"
         title="hammer"
-        variant={null}
+        variant="full-width"
       >
         hammer.svg
       </svg>
@@ -3395,7 +3395,7 @@ Array [
       <svg
         className="icon"
         title="hangouts"
-        variant={null}
+        variant="full-width"
       >
         hangouts.svg
       </svg>
@@ -3411,7 +3411,7 @@ Array [
       <svg
         className="icon"
         title="happy-2"
-        variant={null}
+        variant="full-width"
       >
         happy-2.svg
       </svg>
@@ -3427,7 +3427,7 @@ Array [
       <svg
         className="icon"
         title="happy"
-        variant={null}
+        variant="full-width"
       >
         happy.svg
       </svg>
@@ -3443,7 +3443,7 @@ Array [
       <svg
         className="icon"
         title="headphones"
-        variant={null}
+        variant="full-width"
       >
         headphones.svg
       </svg>
@@ -3459,7 +3459,7 @@ Array [
       <svg
         className="icon"
         title="heart-broken"
-        variant={null}
+        variant="full-width"
       >
         heart-broken.svg
       </svg>
@@ -3475,7 +3475,7 @@ Array [
       <svg
         className="icon"
         title="heart"
-        variant={null}
+        variant="full-width"
       >
         heart.svg
       </svg>
@@ -3491,7 +3491,7 @@ Array [
       <svg
         className="icon"
         title="hipster-2"
-        variant={null}
+        variant="full-width"
       >
         hipster-2.svg
       </svg>
@@ -3507,7 +3507,7 @@ Array [
       <svg
         className="icon"
         title="hipster"
-        variant={null}
+        variant="full-width"
       >
         hipster.svg
       </svg>
@@ -3523,7 +3523,7 @@ Array [
       <svg
         className="icon"
         title="history"
-        variant={null}
+        variant="full-width"
       >
         history.svg
       </svg>
@@ -3539,7 +3539,7 @@ Array [
       <svg
         className="icon"
         title="home-2"
-        variant={null}
+        variant="full-width"
       >
         home-2.svg
       </svg>
@@ -3555,7 +3555,7 @@ Array [
       <svg
         className="icon"
         title="home-3"
-        variant={null}
+        variant="full-width"
       >
         home-3.svg
       </svg>
@@ -3571,7 +3571,7 @@ Array [
       <svg
         className="icon"
         title="home"
-        variant={null}
+        variant="full-width"
       >
         home.svg
       </svg>
@@ -3587,7 +3587,7 @@ Array [
       <svg
         className="icon"
         title="hour-glass"
-        variant={null}
+        variant="full-width"
       >
         hour-glass.svg
       </svg>
@@ -3603,7 +3603,7 @@ Array [
       <svg
         className="icon"
         title="html-five-2"
-        variant={null}
+        variant="full-width"
       >
         html-five-2.svg
       </svg>
@@ -3619,7 +3619,7 @@ Array [
       <svg
         className="icon"
         title="html-five"
-        variant={null}
+        variant="full-width"
       >
         html-five.svg
       </svg>
@@ -3635,7 +3635,7 @@ Array [
       <svg
         className="icon"
         title="icomoon"
-        variant={null}
+        variant="full-width"
       >
         icomoon.svg
       </svg>
@@ -3651,7 +3651,7 @@ Array [
       <svg
         className="icon"
         title="ie"
-        variant={null}
+        variant="full-width"
       >
         ie.svg
       </svg>
@@ -3667,7 +3667,7 @@ Array [
       <svg
         className="icon"
         title="image"
-        variant={null}
+        variant="full-width"
       >
         image.svg
       </svg>
@@ -3683,7 +3683,7 @@ Array [
       <svg
         className="icon"
         title="images"
-        variant={null}
+        variant="full-width"
       >
         images.svg
       </svg>
@@ -3699,7 +3699,7 @@ Array [
       <svg
         className="icon"
         title="indent-decrease"
-        variant={null}
+        variant="full-width"
       >
         indent-decrease.svg
       </svg>
@@ -3715,7 +3715,7 @@ Array [
       <svg
         className="icon"
         title="indent-increase"
-        variant={null}
+        variant="full-width"
       >
         indent-increase.svg
       </svg>
@@ -3731,7 +3731,7 @@ Array [
       <svg
         className="icon"
         title="infinite"
-        variant={null}
+        variant="full-width"
       >
         infinite.svg
       </svg>
@@ -3747,7 +3747,7 @@ Array [
       <svg
         className="icon"
         title="info"
-        variant={null}
+        variant="full-width"
       >
         info.svg
       </svg>
@@ -3763,7 +3763,7 @@ Array [
       <svg
         className="icon"
         title="insert-template"
-        variant={null}
+        variant="full-width"
       >
         insert-template.svg
       </svg>
@@ -3779,7 +3779,7 @@ Array [
       <svg
         className="icon"
         title="instagram"
-        variant={null}
+        variant="full-width"
       >
         instagram.svg
       </svg>
@@ -3795,7 +3795,7 @@ Array [
       <svg
         className="icon"
         title="italic"
-        variant={null}
+        variant="full-width"
       >
         italic.svg
       </svg>
@@ -3811,7 +3811,7 @@ Array [
       <svg
         className="icon"
         title="joomla"
-        variant={null}
+        variant="full-width"
       >
         joomla.svg
       </svg>
@@ -3827,7 +3827,7 @@ Array [
       <svg
         className="icon"
         title="key-2"
-        variant={null}
+        variant="full-width"
       >
         key-2.svg
       </svg>
@@ -3843,7 +3843,7 @@ Array [
       <svg
         className="icon"
         title="key"
-        variant={null}
+        variant="full-width"
       >
         key.svg
       </svg>
@@ -3859,7 +3859,7 @@ Array [
       <svg
         className="icon"
         title="keyboard"
-        variant={null}
+        variant="full-width"
       >
         keyboard.svg
       </svg>
@@ -3875,7 +3875,7 @@ Array [
       <svg
         className="icon"
         title="lab"
-        variant={null}
+        variant="full-width"
       >
         lab.svg
       </svg>
@@ -3891,7 +3891,7 @@ Array [
       <svg
         className="icon"
         title="lanyrd"
-        variant={null}
+        variant="full-width"
       >
         lanyrd.svg
       </svg>
@@ -3907,7 +3907,7 @@ Array [
       <svg
         className="icon"
         title="laptop"
-        variant={null}
+        variant="full-width"
       >
         laptop.svg
       </svg>
@@ -3923,7 +3923,7 @@ Array [
       <svg
         className="icon"
         title="last"
-        variant={null}
+        variant="full-width"
       >
         last.svg
       </svg>
@@ -3939,7 +3939,7 @@ Array [
       <svg
         className="icon"
         title="lastfm-2"
-        variant={null}
+        variant="full-width"
       >
         lastfm-2.svg
       </svg>
@@ -3955,7 +3955,7 @@ Array [
       <svg
         className="icon"
         title="lastfm"
-        variant={null}
+        variant="full-width"
       >
         lastfm.svg
       </svg>
@@ -3971,7 +3971,7 @@ Array [
       <svg
         className="icon"
         title="leaf"
-        variant={null}
+        variant="full-width"
       >
         leaf.svg
       </svg>
@@ -3987,7 +3987,7 @@ Array [
       <svg
         className="icon"
         title="library"
-        variant={null}
+        variant="full-width"
       >
         library.svg
       </svg>
@@ -4003,7 +4003,7 @@ Array [
       <svg
         className="icon"
         title="libreoffice"
-        variant={null}
+        variant="full-width"
       >
         libreoffice.svg
       </svg>
@@ -4019,7 +4019,7 @@ Array [
       <svg
         className="icon"
         title="lifebuoy"
-        variant={null}
+        variant="full-width"
       >
         lifebuoy.svg
       </svg>
@@ -4035,7 +4035,7 @@ Array [
       <svg
         className="icon"
         title="ligature-2"
-        variant={null}
+        variant="full-width"
       >
         ligature-2.svg
       </svg>
@@ -4051,7 +4051,7 @@ Array [
       <svg
         className="icon"
         title="ligature"
-        variant={null}
+        variant="full-width"
       >
         ligature.svg
       </svg>
@@ -4067,7 +4067,7 @@ Array [
       <svg
         className="icon"
         title="link"
-        variant={null}
+        variant="full-width"
       >
         link.svg
       </svg>
@@ -4083,7 +4083,7 @@ Array [
       <svg
         className="icon"
         title="linkedin-2"
-        variant={null}
+        variant="full-width"
       >
         linkedin-2.svg
       </svg>
@@ -4099,7 +4099,7 @@ Array [
       <svg
         className="icon"
         title="linkedin"
-        variant={null}
+        variant="full-width"
       >
         linkedin.svg
       </svg>
@@ -4115,7 +4115,7 @@ Array [
       <svg
         className="icon"
         title="list-2"
-        variant={null}
+        variant="full-width"
       >
         list-2.svg
       </svg>
@@ -4131,7 +4131,7 @@ Array [
       <svg
         className="icon"
         title="list-numbered"
-        variant={null}
+        variant="full-width"
       >
         list-numbered.svg
       </svg>
@@ -4147,7 +4147,7 @@ Array [
       <svg
         className="icon"
         title="list"
-        variant={null}
+        variant="full-width"
       >
         list.svg
       </svg>
@@ -4163,7 +4163,7 @@ Array [
       <svg
         className="icon"
         title="location-2"
-        variant={null}
+        variant="full-width"
       >
         location-2.svg
       </svg>
@@ -4179,7 +4179,7 @@ Array [
       <svg
         className="icon"
         title="location"
-        variant={null}
+        variant="full-width"
       >
         location.svg
       </svg>
@@ -4195,7 +4195,7 @@ Array [
       <svg
         className="icon"
         title="lock"
-        variant={null}
+        variant="full-width"
       >
         lock.svg
       </svg>
@@ -4211,7 +4211,7 @@ Array [
       <svg
         className="icon"
         title="loop-2"
-        variant={null}
+        variant="full-width"
       >
         loop-2.svg
       </svg>
@@ -4227,7 +4227,7 @@ Array [
       <svg
         className="icon"
         title="loop"
-        variant={null}
+        variant="full-width"
       >
         loop.svg
       </svg>
@@ -4243,7 +4243,7 @@ Array [
       <svg
         className="icon"
         title="ltr"
-        variant={null}
+        variant="full-width"
       >
         ltr.svg
       </svg>
@@ -4259,7 +4259,7 @@ Array [
       <svg
         className="icon"
         title="magic-wand"
-        variant={null}
+        variant="full-width"
       >
         magic-wand.svg
       </svg>
@@ -4275,7 +4275,7 @@ Array [
       <svg
         className="icon"
         title="magnet"
-        variant={null}
+        variant="full-width"
       >
         magnet.svg
       </svg>
@@ -4291,7 +4291,7 @@ Array [
       <svg
         className="icon"
         title="mail-2"
-        variant={null}
+        variant="full-width"
       >
         mail-2.svg
       </svg>
@@ -4307,7 +4307,7 @@ Array [
       <svg
         className="icon"
         title="mail-3"
-        variant={null}
+        variant="full-width"
       >
         mail-3.svg
       </svg>
@@ -4323,7 +4323,7 @@ Array [
       <svg
         className="icon"
         title="mail-4"
-        variant={null}
+        variant="full-width"
       >
         mail-4.svg
       </svg>
@@ -4339,7 +4339,7 @@ Array [
       <svg
         className="icon"
         title="mail"
-        variant={null}
+        variant="full-width"
       >
         mail.svg
       </svg>
@@ -4355,7 +4355,7 @@ Array [
       <svg
         className="icon"
         title="make-group"
-        variant={null}
+        variant="full-width"
       >
         make-group.svg
       </svg>
@@ -4371,7 +4371,7 @@ Array [
       <svg
         className="icon"
         title="man-woman"
-        variant={null}
+        variant="full-width"
       >
         man-woman.svg
       </svg>
@@ -4387,7 +4387,7 @@ Array [
       <svg
         className="icon"
         title="man"
-        variant={null}
+        variant="full-width"
       >
         man.svg
       </svg>
@@ -4403,7 +4403,7 @@ Array [
       <svg
         className="icon"
         title="map-2"
-        variant={null}
+        variant="full-width"
       >
         map-2.svg
       </svg>
@@ -4419,7 +4419,7 @@ Array [
       <svg
         className="icon"
         title="map"
-        variant={null}
+        variant="full-width"
       >
         map.svg
       </svg>
@@ -4435,7 +4435,7 @@ Array [
       <svg
         className="icon"
         title="menu-2"
-        variant={null}
+        variant="full-width"
       >
         menu-2.svg
       </svg>
@@ -4451,7 +4451,7 @@ Array [
       <svg
         className="icon"
         title="menu-3"
-        variant={null}
+        variant="full-width"
       >
         menu-3.svg
       </svg>
@@ -4467,7 +4467,7 @@ Array [
       <svg
         className="icon"
         title="menu-4"
-        variant={null}
+        variant="full-width"
       >
         menu-4.svg
       </svg>
@@ -4483,7 +4483,7 @@ Array [
       <svg
         className="icon"
         title="menu"
-        variant={null}
+        variant="full-width"
       >
         menu.svg
       </svg>
@@ -4499,7 +4499,7 @@ Array [
       <svg
         className="icon"
         title="meter-2"
-        variant={null}
+        variant="full-width"
       >
         meter-2.svg
       </svg>
@@ -4515,7 +4515,7 @@ Array [
       <svg
         className="icon"
         title="meter"
-        variant={null}
+        variant="full-width"
       >
         meter.svg
       </svg>
@@ -4531,7 +4531,7 @@ Array [
       <svg
         className="icon"
         title="mic"
-        variant={null}
+        variant="full-width"
       >
         mic.svg
       </svg>
@@ -4547,7 +4547,7 @@ Array [
       <svg
         className="icon"
         title="minus"
-        variant={null}
+        variant="full-width"
       >
         minus.svg
       </svg>
@@ -4563,7 +4563,7 @@ Array [
       <svg
         className="icon"
         title="mobile-2"
-        variant={null}
+        variant="full-width"
       >
         mobile-2.svg
       </svg>
@@ -4579,7 +4579,7 @@ Array [
       <svg
         className="icon"
         title="mobile"
-        variant={null}
+        variant="full-width"
       >
         mobile.svg
       </svg>
@@ -4595,7 +4595,7 @@ Array [
       <svg
         className="icon"
         title="move-down"
-        variant={null}
+        variant="full-width"
       >
         move-down.svg
       </svg>
@@ -4611,7 +4611,7 @@ Array [
       <svg
         className="icon"
         title="move-up"
-        variant={null}
+        variant="full-width"
       >
         move-up.svg
       </svg>
@@ -4627,7 +4627,7 @@ Array [
       <svg
         className="icon"
         title="mug"
-        variant={null}
+        variant="full-width"
       >
         mug.svg
       </svg>
@@ -4643,7 +4643,7 @@ Array [
       <svg
         className="icon"
         title="music"
-        variant={null}
+        variant="full-width"
       >
         music.svg
       </svg>
@@ -4659,7 +4659,7 @@ Array [
       <svg
         className="icon"
         title="neutral-2"
-        variant={null}
+        variant="full-width"
       >
         neutral-2.svg
       </svg>
@@ -4675,7 +4675,7 @@ Array [
       <svg
         className="icon"
         title="neutral"
-        variant={null}
+        variant="full-width"
       >
         neutral.svg
       </svg>
@@ -4691,7 +4691,7 @@ Array [
       <svg
         className="icon"
         title="new-tab"
-        variant={null}
+        variant="full-width"
       >
         new-tab.svg
       </svg>
@@ -4707,7 +4707,7 @@ Array [
       <svg
         className="icon"
         title="newspaper"
-        variant={null}
+        variant="full-width"
       >
         newspaper.svg
       </svg>
@@ -4723,7 +4723,7 @@ Array [
       <svg
         className="icon"
         title="next-2"
-        variant={null}
+        variant="full-width"
       >
         next-2.svg
       </svg>
@@ -4739,7 +4739,7 @@ Array [
       <svg
         className="icon"
         title="next"
-        variant={null}
+        variant="full-width"
       >
         next.svg
       </svg>
@@ -4755,7 +4755,7 @@ Array [
       <svg
         className="icon"
         title="notification"
-        variant={null}
+        variant="full-width"
       >
         notification.svg
       </svg>
@@ -4771,7 +4771,7 @@ Array [
       <svg
         className="icon"
         title="npm"
-        variant={null}
+        variant="full-width"
       >
         npm.svg
       </svg>
@@ -4787,7 +4787,7 @@ Array [
       <svg
         className="icon"
         title="office"
-        variant={null}
+        variant="full-width"
       >
         office.svg
       </svg>
@@ -4803,7 +4803,7 @@ Array [
       <svg
         className="icon"
         title="omega"
-        variant={null}
+        variant="full-width"
       >
         omega.svg
       </svg>
@@ -4819,7 +4819,7 @@ Array [
       <svg
         className="icon"
         title="onedrive"
-        variant={null}
+        variant="full-width"
       >
         onedrive.svg
       </svg>
@@ -4835,7 +4835,7 @@ Array [
       <svg
         className="icon"
         title="opera"
-        variant={null}
+        variant="full-width"
       >
         opera.svg
       </svg>
@@ -4851,7 +4851,7 @@ Array [
       <svg
         className="icon"
         title="opt"
-        variant={null}
+        variant="full-width"
       >
         opt.svg
       </svg>
@@ -4867,7 +4867,7 @@ Array [
       <svg
         className="icon"
         title="pacman"
-        variant={null}
+        variant="full-width"
       >
         pacman.svg
       </svg>
@@ -4883,7 +4883,7 @@ Array [
       <svg
         className="icon"
         title="page-break"
-        variant={null}
+        variant="full-width"
       >
         page-break.svg
       </svg>
@@ -4899,7 +4899,7 @@ Array [
       <svg
         className="icon"
         title="pagebreak"
-        variant={null}
+        variant="full-width"
       >
         pagebreak.svg
       </svg>
@@ -4915,7 +4915,7 @@ Array [
       <svg
         className="icon"
         title="paint-format"
-        variant={null}
+        variant="full-width"
       >
         paint-format.svg
       </svg>
@@ -4931,7 +4931,7 @@ Array [
       <svg
         className="icon"
         title="paragraph-center"
-        variant={null}
+        variant="full-width"
       >
         paragraph-center.svg
       </svg>
@@ -4947,7 +4947,7 @@ Array [
       <svg
         className="icon"
         title="paragraph-justify"
-        variant={null}
+        variant="full-width"
       >
         paragraph-justify.svg
       </svg>
@@ -4963,7 +4963,7 @@ Array [
       <svg
         className="icon"
         title="paragraph-left"
-        variant={null}
+        variant="full-width"
       >
         paragraph-left.svg
       </svg>
@@ -4979,7 +4979,7 @@ Array [
       <svg
         className="icon"
         title="paragraph-right"
-        variant={null}
+        variant="full-width"
       >
         paragraph-right.svg
       </svg>
@@ -4995,7 +4995,7 @@ Array [
       <svg
         className="icon"
         title="paste"
-        variant={null}
+        variant="full-width"
       >
         paste.svg
       </svg>
@@ -5011,7 +5011,7 @@ Array [
       <svg
         className="icon"
         title="pause-2"
-        variant={null}
+        variant="full-width"
       >
         pause-2.svg
       </svg>
@@ -5027,7 +5027,7 @@ Array [
       <svg
         className="icon"
         title="pause"
-        variant={null}
+        variant="full-width"
       >
         pause.svg
       </svg>
@@ -5043,7 +5043,7 @@ Array [
       <svg
         className="icon"
         title="paypal"
-        variant={null}
+        variant="full-width"
       >
         paypal.svg
       </svg>
@@ -5059,7 +5059,7 @@ Array [
       <svg
         className="icon"
         title="pen"
-        variant={null}
+        variant="full-width"
       >
         pen.svg
       </svg>
@@ -5075,7 +5075,7 @@ Array [
       <svg
         className="icon"
         title="pencil-2"
-        variant={null}
+        variant="full-width"
       >
         pencil-2.svg
       </svg>
@@ -5091,7 +5091,7 @@ Array [
       <svg
         className="icon"
         title="pencil"
-        variant={null}
+        variant="full-width"
       >
         pencil.svg
       </svg>
@@ -5107,7 +5107,7 @@ Array [
       <svg
         className="icon"
         title="phone-hang-up"
-        variant={null}
+        variant="full-width"
       >
         phone-hang-up.svg
       </svg>
@@ -5123,7 +5123,7 @@ Array [
       <svg
         className="icon"
         title="phone"
-        variant={null}
+        variant="full-width"
       >
         phone.svg
       </svg>
@@ -5139,7 +5139,7 @@ Array [
       <svg
         className="icon"
         title="pie-chart"
-        variant={null}
+        variant="full-width"
       >
         pie-chart.svg
       </svg>
@@ -5155,7 +5155,7 @@ Array [
       <svg
         className="icon"
         title="pilcrow"
-        variant={null}
+        variant="full-width"
       >
         pilcrow.svg
       </svg>
@@ -5171,7 +5171,7 @@ Array [
       <svg
         className="icon"
         title="pinterest-2"
-        variant={null}
+        variant="full-width"
       >
         pinterest-2.svg
       </svg>
@@ -5187,7 +5187,7 @@ Array [
       <svg
         className="icon"
         title="pinterest"
-        variant={null}
+        variant="full-width"
       >
         pinterest.svg
       </svg>
@@ -5203,7 +5203,7 @@ Array [
       <svg
         className="icon"
         title="play-2"
-        variant={null}
+        variant="full-width"
       >
         play-2.svg
       </svg>
@@ -5219,7 +5219,7 @@ Array [
       <svg
         className="icon"
         title="play-3"
-        variant={null}
+        variant="full-width"
       >
         play-3.svg
       </svg>
@@ -5235,7 +5235,7 @@ Array [
       <svg
         className="icon"
         title="play"
-        variant={null}
+        variant="full-width"
       >
         play.svg
       </svg>
@@ -5251,7 +5251,7 @@ Array [
       <svg
         className="icon"
         title="plus"
-        variant={null}
+        variant="full-width"
       >
         plus.svg
       </svg>
@@ -5267,7 +5267,7 @@ Array [
       <svg
         className="icon"
         title="podcast"
-        variant={null}
+        variant="full-width"
       >
         podcast.svg
       </svg>
@@ -5283,7 +5283,7 @@ Array [
       <svg
         className="icon"
         title="point-down"
-        variant={null}
+        variant="full-width"
       >
         point-down.svg
       </svg>
@@ -5299,7 +5299,7 @@ Array [
       <svg
         className="icon"
         title="point-left"
-        variant={null}
+        variant="full-width"
       >
         point-left.svg
       </svg>
@@ -5315,7 +5315,7 @@ Array [
       <svg
         className="icon"
         title="point-right"
-        variant={null}
+        variant="full-width"
       >
         point-right.svg
       </svg>
@@ -5331,7 +5331,7 @@ Array [
       <svg
         className="icon"
         title="point-up"
-        variant={null}
+        variant="full-width"
       >
         point-up.svg
       </svg>
@@ -5347,7 +5347,7 @@ Array [
       <svg
         className="icon"
         title="power-cord"
-        variant={null}
+        variant="full-width"
       >
         power-cord.svg
       </svg>
@@ -5363,7 +5363,7 @@ Array [
       <svg
         className="icon"
         title="power"
-        variant={null}
+        variant="full-width"
       >
         power.svg
       </svg>
@@ -5379,7 +5379,7 @@ Array [
       <svg
         className="icon"
         title="previous-2"
-        variant={null}
+        variant="full-width"
       >
         previous-2.svg
       </svg>
@@ -5395,7 +5395,7 @@ Array [
       <svg
         className="icon"
         title="previous"
-        variant={null}
+        variant="full-width"
       >
         previous.svg
       </svg>
@@ -5411,7 +5411,7 @@ Array [
       <svg
         className="icon"
         title="price-tag"
-        variant={null}
+        variant="full-width"
       >
         price-tag.svg
       </svg>
@@ -5427,7 +5427,7 @@ Array [
       <svg
         className="icon"
         title="price-tags"
-        variant={null}
+        variant="full-width"
       >
         price-tags.svg
       </svg>
@@ -5443,7 +5443,7 @@ Array [
       <svg
         className="icon"
         title="printer"
-        variant={null}
+        variant="full-width"
       >
         printer.svg
       </svg>
@@ -5459,7 +5459,7 @@ Array [
       <svg
         className="icon"
         title="profile"
-        variant={null}
+        variant="full-width"
       >
         profile.svg
       </svg>
@@ -5475,7 +5475,7 @@ Array [
       <svg
         className="icon"
         title="pushpin"
-        variant={null}
+        variant="full-width"
       >
         pushpin.svg
       </svg>
@@ -5491,7 +5491,7 @@ Array [
       <svg
         className="icon"
         title="qrcode"
-        variant={null}
+        variant="full-width"
       >
         qrcode.svg
       </svg>
@@ -5507,7 +5507,7 @@ Array [
       <svg
         className="icon"
         title="question"
-        variant={null}
+        variant="full-width"
       >
         question.svg
       </svg>
@@ -5523,7 +5523,7 @@ Array [
       <svg
         className="icon"
         title="quill"
-        variant={null}
+        variant="full-width"
       >
         quill.svg
       </svg>
@@ -5539,7 +5539,7 @@ Array [
       <svg
         className="icon"
         title="quotes-left"
-        variant={null}
+        variant="full-width"
       >
         quotes-left.svg
       </svg>
@@ -5555,7 +5555,7 @@ Array [
       <svg
         className="icon"
         title="quotes-right"
-        variant={null}
+        variant="full-width"
       >
         quotes-right.svg
       </svg>
@@ -5571,7 +5571,7 @@ Array [
       <svg
         className="icon"
         title="radio-checked-2"
-        variant={null}
+        variant="full-width"
       >
         radio-checked-2.svg
       </svg>
@@ -5587,7 +5587,7 @@ Array [
       <svg
         className="icon"
         title="radio-checked"
-        variant={null}
+        variant="full-width"
       >
         radio-checked.svg
       </svg>
@@ -5603,7 +5603,7 @@ Array [
       <svg
         className="icon"
         title="radio-unchecked"
-        variant={null}
+        variant="full-width"
       >
         radio-unchecked.svg
       </svg>
@@ -5619,7 +5619,7 @@ Array [
       <svg
         className="icon"
         title="reddit"
-        variant={null}
+        variant="full-width"
       >
         reddit.svg
       </svg>
@@ -5635,7 +5635,7 @@ Array [
       <svg
         className="icon"
         title="redo-2"
-        variant={null}
+        variant="full-width"
       >
         redo-2.svg
       </svg>
@@ -5651,7 +5651,7 @@ Array [
       <svg
         className="icon"
         title="redo"
-        variant={null}
+        variant="full-width"
       >
         redo.svg
       </svg>
@@ -5667,7 +5667,7 @@ Array [
       <svg
         className="icon"
         title="renren"
-        variant={null}
+        variant="full-width"
       >
         renren.svg
       </svg>
@@ -5683,7 +5683,7 @@ Array [
       <svg
         className="icon"
         title="reply"
-        variant={null}
+        variant="full-width"
       >
         reply.svg
       </svg>
@@ -5699,7 +5699,7 @@ Array [
       <svg
         className="icon"
         title="road"
-        variant={null}
+        variant="full-width"
       >
         road.svg
       </svg>
@@ -5715,7 +5715,7 @@ Array [
       <svg
         className="icon"
         title="rocket"
-        variant={null}
+        variant="full-width"
       >
         rocket.svg
       </svg>
@@ -5731,7 +5731,7 @@ Array [
       <svg
         className="icon"
         title="rss-2"
-        variant={null}
+        variant="full-width"
       >
         rss-2.svg
       </svg>
@@ -5747,7 +5747,7 @@ Array [
       <svg
         className="icon"
         title="rss"
-        variant={null}
+        variant="full-width"
       >
         rss.svg
       </svg>
@@ -5763,7 +5763,7 @@ Array [
       <svg
         className="icon"
         title="rtl"
-        variant={null}
+        variant="full-width"
       >
         rtl.svg
       </svg>
@@ -5779,7 +5779,7 @@ Array [
       <svg
         className="icon"
         title="sad-2"
-        variant={null}
+        variant="full-width"
       >
         sad-2.svg
       </svg>
@@ -5795,7 +5795,7 @@ Array [
       <svg
         className="icon"
         title="sad"
-        variant={null}
+        variant="full-width"
       >
         sad.svg
       </svg>
@@ -5811,7 +5811,7 @@ Array [
       <svg
         className="icon"
         title="safari"
-        variant={null}
+        variant="full-width"
       >
         safari.svg
       </svg>
@@ -5827,7 +5827,7 @@ Array [
       <svg
         className="icon"
         title="scissors"
-        variant={null}
+        variant="full-width"
       >
         scissors.svg
       </svg>
@@ -5843,7 +5843,7 @@ Array [
       <svg
         className="icon"
         title="search"
-        variant={null}
+        variant="full-width"
       >
         search.svg
       </svg>
@@ -5859,7 +5859,7 @@ Array [
       <svg
         className="icon"
         title="section"
-        variant={null}
+        variant="full-width"
       >
         section.svg
       </svg>
@@ -5875,7 +5875,7 @@ Array [
       <svg
         className="icon"
         title="share-2"
-        variant={null}
+        variant="full-width"
       >
         share-2.svg
       </svg>
@@ -5891,7 +5891,7 @@ Array [
       <svg
         className="icon"
         title="share"
-        variant={null}
+        variant="full-width"
       >
         share.svg
       </svg>
@@ -5907,7 +5907,7 @@ Array [
       <svg
         className="icon"
         title="shield"
-        variant={null}
+        variant="full-width"
       >
         shield.svg
       </svg>
@@ -5923,7 +5923,7 @@ Array [
       <svg
         className="icon"
         title="shift"
-        variant={null}
+        variant="full-width"
       >
         shift.svg
       </svg>
@@ -5939,7 +5939,7 @@ Array [
       <svg
         className="icon"
         title="shocked-2"
-        variant={null}
+        variant="full-width"
       >
         shocked-2.svg
       </svg>
@@ -5955,7 +5955,7 @@ Array [
       <svg
         className="icon"
         title="shocked"
-        variant={null}
+        variant="full-width"
       >
         shocked.svg
       </svg>
@@ -5971,7 +5971,7 @@ Array [
       <svg
         className="icon"
         title="shrink-2"
-        variant={null}
+        variant="full-width"
       >
         shrink-2.svg
       </svg>
@@ -5987,7 +5987,7 @@ Array [
       <svg
         className="icon"
         title="shrink"
-        variant={null}
+        variant="full-width"
       >
         shrink.svg
       </svg>
@@ -6003,7 +6003,7 @@ Array [
       <svg
         className="icon"
         title="shuffle"
-        variant={null}
+        variant="full-width"
       >
         shuffle.svg
       </svg>
@@ -6019,7 +6019,7 @@ Array [
       <svg
         className="icon"
         title="sigma"
-        variant={null}
+        variant="full-width"
       >
         sigma.svg
       </svg>
@@ -6035,7 +6035,7 @@ Array [
       <svg
         className="icon"
         title="sina-weibo"
-        variant={null}
+        variant="full-width"
       >
         sina-weibo.svg
       </svg>
@@ -6051,7 +6051,7 @@ Array [
       <svg
         className="icon"
         title="skype"
-        variant={null}
+        variant="full-width"
       >
         skype.svg
       </svg>
@@ -6067,7 +6067,7 @@ Array [
       <svg
         className="icon"
         title="sleepy-2"
-        variant={null}
+        variant="full-width"
       >
         sleepy-2.svg
       </svg>
@@ -6083,7 +6083,7 @@ Array [
       <svg
         className="icon"
         title="sleepy"
-        variant={null}
+        variant="full-width"
       >
         sleepy.svg
       </svg>
@@ -6099,7 +6099,7 @@ Array [
       <svg
         className="icon"
         title="smile-2"
-        variant={null}
+        variant="full-width"
       >
         smile-2.svg
       </svg>
@@ -6115,7 +6115,7 @@ Array [
       <svg
         className="icon"
         title="smile"
-        variant={null}
+        variant="full-width"
       >
         smile.svg
       </svg>
@@ -6131,7 +6131,7 @@ Array [
       <svg
         className="icon"
         title="sort-alpha-asc"
-        variant={null}
+        variant="full-width"
       >
         sort-alpha-asc.svg
       </svg>
@@ -6147,7 +6147,7 @@ Array [
       <svg
         className="icon"
         title="sort-alpha-desc"
-        variant={null}
+        variant="full-width"
       >
         sort-alpha-desc.svg
       </svg>
@@ -6163,7 +6163,7 @@ Array [
       <svg
         className="icon"
         title="sort-amount-asc"
-        variant={null}
+        variant="full-width"
       >
         sort-amount-asc.svg
       </svg>
@@ -6179,7 +6179,7 @@ Array [
       <svg
         className="icon"
         title="sort-amount-desc"
-        variant={null}
+        variant="full-width"
       >
         sort-amount-desc.svg
       </svg>
@@ -6195,7 +6195,7 @@ Array [
       <svg
         className="icon"
         title="sort-numberic-desc"
-        variant={null}
+        variant="full-width"
       >
         sort-numberic-desc.svg
       </svg>
@@ -6211,7 +6211,7 @@ Array [
       <svg
         className="icon"
         title="sort-numeric-asc"
-        variant={null}
+        variant="full-width"
       >
         sort-numeric-asc.svg
       </svg>
@@ -6227,7 +6227,7 @@ Array [
       <svg
         className="icon"
         title="soundcloud-2"
-        variant={null}
+        variant="full-width"
       >
         soundcloud-2.svg
       </svg>
@@ -6243,7 +6243,7 @@ Array [
       <svg
         className="icon"
         title="soundcloud"
-        variant={null}
+        variant="full-width"
       >
         soundcloud.svg
       </svg>
@@ -6259,7 +6259,7 @@ Array [
       <svg
         className="icon"
         title="spades"
-        variant={null}
+        variant="full-width"
       >
         spades.svg
       </svg>
@@ -6275,7 +6275,7 @@ Array [
       <svg
         className="icon"
         title="spell-check"
-        variant={null}
+        variant="full-width"
       >
         spell-check.svg
       </svg>
@@ -6291,7 +6291,7 @@ Array [
       <svg
         className="icon"
         title="sphere"
-        variant={null}
+        variant="full-width"
       >
         sphere.svg
       </svg>
@@ -6307,7 +6307,7 @@ Array [
       <svg
         className="icon"
         title="spinner-10"
-        variant={null}
+        variant="full-width"
       >
         spinner-10.svg
       </svg>
@@ -6323,7 +6323,7 @@ Array [
       <svg
         className="icon"
         title="spinner-11"
-        variant={null}
+        variant="full-width"
       >
         spinner-11.svg
       </svg>
@@ -6339,7 +6339,7 @@ Array [
       <svg
         className="icon"
         title="spinner-2"
-        variant={null}
+        variant="full-width"
       >
         spinner-2.svg
       </svg>
@@ -6355,7 +6355,7 @@ Array [
       <svg
         className="icon"
         title="spinner-3"
-        variant={null}
+        variant="full-width"
       >
         spinner-3.svg
       </svg>
@@ -6371,7 +6371,7 @@ Array [
       <svg
         className="icon"
         title="spinner-4"
-        variant={null}
+        variant="full-width"
       >
         spinner-4.svg
       </svg>
@@ -6387,7 +6387,7 @@ Array [
       <svg
         className="icon"
         title="spinner-5"
-        variant={null}
+        variant="full-width"
       >
         spinner-5.svg
       </svg>
@@ -6403,7 +6403,7 @@ Array [
       <svg
         className="icon"
         title="spinner-6"
-        variant={null}
+        variant="full-width"
       >
         spinner-6.svg
       </svg>
@@ -6419,7 +6419,7 @@ Array [
       <svg
         className="icon"
         title="spinner-7"
-        variant={null}
+        variant="full-width"
       >
         spinner-7.svg
       </svg>
@@ -6435,7 +6435,7 @@ Array [
       <svg
         className="icon"
         title="spinner-8"
-        variant={null}
+        variant="full-width"
       >
         spinner-8.svg
       </svg>
@@ -6451,7 +6451,7 @@ Array [
       <svg
         className="icon"
         title="spinner-9"
-        variant={null}
+        variant="full-width"
       >
         spinner-9.svg
       </svg>
@@ -6467,7 +6467,7 @@ Array [
       <svg
         className="icon"
         title="spinner"
-        variant={null}
+        variant="full-width"
       >
         spinner.svg
       </svg>
@@ -6483,7 +6483,7 @@ Array [
       <svg
         className="icon"
         title="spoon-knife"
-        variant={null}
+        variant="full-width"
       >
         spoon-knife.svg
       </svg>
@@ -6499,7 +6499,7 @@ Array [
       <svg
         className="icon"
         title="spotify"
-        variant={null}
+        variant="full-width"
       >
         spotify.svg
       </svg>
@@ -6515,7 +6515,7 @@ Array [
       <svg
         className="icon"
         title="stack"
-        variant={null}
+        variant="full-width"
       >
         stack.svg
       </svg>
@@ -6531,7 +6531,7 @@ Array [
       <svg
         className="icon"
         title="stackoverflow"
-        variant={null}
+        variant="full-width"
       >
         stackoverflow.svg
       </svg>
@@ -6547,7 +6547,7 @@ Array [
       <svg
         className="icon"
         title="star-empty"
-        variant={null}
+        variant="full-width"
       >
         star-empty.svg
       </svg>
@@ -6563,7 +6563,7 @@ Array [
       <svg
         className="icon"
         title="star-full"
-        variant={null}
+        variant="full-width"
       >
         star-full.svg
       </svg>
@@ -6579,7 +6579,7 @@ Array [
       <svg
         className="icon"
         title="star-half"
-        variant={null}
+        variant="full-width"
       >
         star-half.svg
       </svg>
@@ -6595,7 +6595,7 @@ Array [
       <svg
         className="icon"
         title="stats-bars-2"
-        variant={null}
+        variant="full-width"
       >
         stats-bars-2.svg
       </svg>
@@ -6611,7 +6611,7 @@ Array [
       <svg
         className="icon"
         title="stats-bars"
-        variant={null}
+        variant="full-width"
       >
         stats-bars.svg
       </svg>
@@ -6627,7 +6627,7 @@ Array [
       <svg
         className="icon"
         title="stats-dots"
-        variant={null}
+        variant="full-width"
       >
         stats-dots.svg
       </svg>
@@ -6643,7 +6643,7 @@ Array [
       <svg
         className="icon"
         title="steam-2"
-        variant={null}
+        variant="full-width"
       >
         steam-2.svg
       </svg>
@@ -6659,7 +6659,7 @@ Array [
       <svg
         className="icon"
         title="steam"
-        variant={null}
+        variant="full-width"
       >
         steam.svg
       </svg>
@@ -6675,7 +6675,7 @@ Array [
       <svg
         className="icon"
         title="stop-2"
-        variant={null}
+        variant="full-width"
       >
         stop-2.svg
       </svg>
@@ -6691,7 +6691,7 @@ Array [
       <svg
         className="icon"
         title="stop"
-        variant={null}
+        variant="full-width"
       >
         stop.svg
       </svg>
@@ -6707,7 +6707,7 @@ Array [
       <svg
         className="icon"
         title="stopwatch"
-        variant={null}
+        variant="full-width"
       >
         stopwatch.svg
       </svg>
@@ -6723,7 +6723,7 @@ Array [
       <svg
         className="icon"
         title="strikethrough"
-        variant={null}
+        variant="full-width"
       >
         strikethrough.svg
       </svg>
@@ -6739,7 +6739,7 @@ Array [
       <svg
         className="icon"
         title="stumbleupon-2"
-        variant={null}
+        variant="full-width"
       >
         stumbleupon-2.svg
       </svg>
@@ -6755,7 +6755,7 @@ Array [
       <svg
         className="icon"
         title="stumbleupon"
-        variant={null}
+        variant="full-width"
       >
         stumbleupon.svg
       </svg>
@@ -6771,7 +6771,7 @@ Array [
       <svg
         className="icon"
         title="subscript-2"
-        variant={null}
+        variant="full-width"
       >
         subscript-2.svg
       </svg>
@@ -6787,7 +6787,7 @@ Array [
       <svg
         className="icon"
         title="subscript"
-        variant={null}
+        variant="full-width"
       >
         subscript.svg
       </svg>
@@ -6803,7 +6803,7 @@ Array [
       <svg
         className="icon"
         title="sun"
-        variant={null}
+        variant="full-width"
       >
         sun.svg
       </svg>
@@ -6819,7 +6819,7 @@ Array [
       <svg
         className="icon"
         title="superscript-2"
-        variant={null}
+        variant="full-width"
       >
         superscript-2.svg
       </svg>
@@ -6835,7 +6835,7 @@ Array [
       <svg
         className="icon"
         title="superscript"
-        variant={null}
+        variant="full-width"
       >
         superscript.svg
       </svg>
@@ -6851,7 +6851,7 @@ Array [
       <svg
         className="icon"
         title="svg"
-        variant={null}
+        variant="full-width"
       >
         svg.svg
       </svg>
@@ -6867,7 +6867,7 @@ Array [
       <svg
         className="icon"
         title="switch"
-        variant={null}
+        variant="full-width"
       >
         switch.svg
       </svg>
@@ -6883,7 +6883,7 @@ Array [
       <svg
         className="icon"
         title="tab"
-        variant={null}
+        variant="full-width"
       >
         tab.svg
       </svg>
@@ -6899,7 +6899,7 @@ Array [
       <svg
         className="icon"
         title="table-2"
-        variant={null}
+        variant="full-width"
       >
         table-2.svg
       </svg>
@@ -6915,7 +6915,7 @@ Array [
       <svg
         className="icon"
         title="table"
-        variant={null}
+        variant="full-width"
       >
         table.svg
       </svg>
@@ -6931,7 +6931,7 @@ Array [
       <svg
         className="icon"
         title="tablet"
-        variant={null}
+        variant="full-width"
       >
         tablet.svg
       </svg>
@@ -6947,7 +6947,7 @@ Array [
       <svg
         className="icon"
         title="target"
-        variant={null}
+        variant="full-width"
       >
         target.svg
       </svg>
@@ -6963,7 +6963,7 @@ Array [
       <svg
         className="icon"
         title="telegram"
-        variant={null}
+        variant="full-width"
       >
         telegram.svg
       </svg>
@@ -6979,7 +6979,7 @@ Array [
       <svg
         className="icon"
         title="terminal"
-        variant={null}
+        variant="full-width"
       >
         terminal.svg
       </svg>
@@ -6995,7 +6995,7 @@ Array [
       <svg
         className="icon"
         title="text-color"
-        variant={null}
+        variant="full-width"
       >
         text-color.svg
       </svg>
@@ -7011,7 +7011,7 @@ Array [
       <svg
         className="icon"
         title="text-height"
-        variant={null}
+        variant="full-width"
       >
         text-height.svg
       </svg>
@@ -7027,7 +7027,7 @@ Array [
       <svg
         className="icon"
         title="text-width"
-        variant={null}
+        variant="full-width"
       >
         text-width.svg
       </svg>
@@ -7043,7 +7043,7 @@ Array [
       <svg
         className="icon"
         title="ticket"
-        variant={null}
+        variant="full-width"
       >
         ticket.svg
       </svg>
@@ -7059,7 +7059,7 @@ Array [
       <svg
         className="icon"
         title="tongue-2"
-        variant={null}
+        variant="full-width"
       >
         tongue-2.svg
       </svg>
@@ -7075,7 +7075,7 @@ Array [
       <svg
         className="icon"
         title="tongue"
-        variant={null}
+        variant="full-width"
       >
         tongue.svg
       </svg>
@@ -7091,7 +7091,7 @@ Array [
       <svg
         className="icon"
         title="tree"
-        variant={null}
+        variant="full-width"
       >
         tree.svg
       </svg>
@@ -7107,7 +7107,7 @@ Array [
       <svg
         className="icon"
         title="trello"
-        variant={null}
+        variant="full-width"
       >
         trello.svg
       </svg>
@@ -7123,7 +7123,7 @@ Array [
       <svg
         className="icon"
         title="trophy"
-        variant={null}
+        variant="full-width"
       >
         trophy.svg
       </svg>
@@ -7139,7 +7139,7 @@ Array [
       <svg
         className="icon"
         title="truck"
-        variant={null}
+        variant="full-width"
       >
         truck.svg
       </svg>
@@ -7155,7 +7155,7 @@ Array [
       <svg
         className="icon"
         title="tumblr-2"
-        variant={null}
+        variant="full-width"
       >
         tumblr-2.svg
       </svg>
@@ -7171,7 +7171,7 @@ Array [
       <svg
         className="icon"
         title="tumblr"
-        variant={null}
+        variant="full-width"
       >
         tumblr.svg
       </svg>
@@ -7187,7 +7187,7 @@ Array [
       <svg
         className="icon"
         title="tux"
-        variant={null}
+        variant="full-width"
       >
         tux.svg
       </svg>
@@ -7203,7 +7203,7 @@ Array [
       <svg
         className="icon"
         title="tv"
-        variant={null}
+        variant="full-width"
       >
         tv.svg
       </svg>
@@ -7219,7 +7219,7 @@ Array [
       <svg
         className="icon"
         title="twitch"
-        variant={null}
+        variant="full-width"
       >
         twitch.svg
       </svg>
@@ -7235,7 +7235,7 @@ Array [
       <svg
         className="icon"
         title="twitter"
-        variant={null}
+        variant="full-width"
       >
         twitter.svg
       </svg>
@@ -7251,7 +7251,7 @@ Array [
       <svg
         className="icon"
         title="underline"
-        variant={null}
+        variant="full-width"
       >
         underline.svg
       </svg>
@@ -7267,7 +7267,7 @@ Array [
       <svg
         className="icon"
         title="undo-2"
-        variant={null}
+        variant="full-width"
       >
         undo-2.svg
       </svg>
@@ -7283,7 +7283,7 @@ Array [
       <svg
         className="icon"
         title="undo"
-        variant={null}
+        variant="full-width"
       >
         undo.svg
       </svg>
@@ -7299,7 +7299,7 @@ Array [
       <svg
         className="icon"
         title="ungroup"
-        variant={null}
+        variant="full-width"
       >
         ungroup.svg
       </svg>
@@ -7315,7 +7315,7 @@ Array [
       <svg
         className="icon"
         title="unlocked"
-        variant={null}
+        variant="full-width"
       >
         unlocked.svg
       </svg>
@@ -7331,7 +7331,7 @@ Array [
       <svg
         className="icon"
         title="upload-2"
-        variant={null}
+        variant="full-width"
       >
         upload-2.svg
       </svg>
@@ -7347,7 +7347,7 @@ Array [
       <svg
         className="icon"
         title="upload-3"
-        variant={null}
+        variant="full-width"
       >
         upload-3.svg
       </svg>
@@ -7363,7 +7363,7 @@ Array [
       <svg
         className="icon"
         title="upload"
-        variant={null}
+        variant="full-width"
       >
         upload.svg
       </svg>
@@ -7379,7 +7379,7 @@ Array [
       <svg
         className="icon"
         title="user-check"
-        variant={null}
+        variant="full-width"
       >
         user-check.svg
       </svg>
@@ -7395,7 +7395,7 @@ Array [
       <svg
         className="icon"
         title="user-minus"
-        variant={null}
+        variant="full-width"
       >
         user-minus.svg
       </svg>
@@ -7411,7 +7411,7 @@ Array [
       <svg
         className="icon"
         title="user-plus"
-        variant={null}
+        variant="full-width"
       >
         user-plus.svg
       </svg>
@@ -7427,7 +7427,7 @@ Array [
       <svg
         className="icon"
         title="user-tie"
-        variant={null}
+        variant="full-width"
       >
         user-tie.svg
       </svg>
@@ -7443,7 +7443,7 @@ Array [
       <svg
         className="icon"
         title="user"
-        variant={null}
+        variant="full-width"
       >
         user.svg
       </svg>
@@ -7459,7 +7459,7 @@ Array [
       <svg
         className="icon"
         title="users"
-        variant={null}
+        variant="full-width"
       >
         users.svg
       </svg>
@@ -7475,7 +7475,7 @@ Array [
       <svg
         className="icon"
         title="video-camera"
-        variant={null}
+        variant="full-width"
       >
         video-camera.svg
       </svg>
@@ -7491,7 +7491,7 @@ Array [
       <svg
         className="icon"
         title="vimeo-2"
-        variant={null}
+        variant="full-width"
       >
         vimeo-2.svg
       </svg>
@@ -7507,7 +7507,7 @@ Array [
       <svg
         className="icon"
         title="vimeo"
-        variant={null}
+        variant="full-width"
       >
         vimeo.svg
       </svg>
@@ -7523,7 +7523,7 @@ Array [
       <svg
         className="icon"
         title="vine"
-        variant={null}
+        variant="full-width"
       >
         vine.svg
       </svg>
@@ -7539,7 +7539,7 @@ Array [
       <svg
         className="icon"
         title="vk"
-        variant={null}
+        variant="full-width"
       >
         vk.svg
       </svg>
@@ -7555,7 +7555,7 @@ Array [
       <svg
         className="icon"
         title="volume-decrease"
-        variant={null}
+        variant="full-width"
       >
         volume-decrease.svg
       </svg>
@@ -7571,7 +7571,7 @@ Array [
       <svg
         className="icon"
         title="volume-high"
-        variant={null}
+        variant="full-width"
       >
         volume-high.svg
       </svg>
@@ -7587,7 +7587,7 @@ Array [
       <svg
         className="icon"
         title="volume-increase"
-        variant={null}
+        variant="full-width"
       >
         volume-increase.svg
       </svg>
@@ -7603,7 +7603,7 @@ Array [
       <svg
         className="icon"
         title="volume-low"
-        variant={null}
+        variant="full-width"
       >
         volume-low.svg
       </svg>
@@ -7619,7 +7619,7 @@ Array [
       <svg
         className="icon"
         title="volume-medium"
-        variant={null}
+        variant="full-width"
       >
         volume-medium.svg
       </svg>
@@ -7635,7 +7635,7 @@ Array [
       <svg
         className="icon"
         title="volume-mute-2"
-        variant={null}
+        variant="full-width"
       >
         volume-mute-2.svg
       </svg>
@@ -7651,7 +7651,7 @@ Array [
       <svg
         className="icon"
         title="volume-mute"
-        variant={null}
+        variant="full-width"
       >
         volume-mute.svg
       </svg>
@@ -7667,7 +7667,7 @@ Array [
       <svg
         className="icon"
         title="warning"
-        variant={null}
+        variant="full-width"
       >
         warning.svg
       </svg>
@@ -7683,7 +7683,7 @@ Array [
       <svg
         className="icon"
         title="whatsapp"
-        variant={null}
+        variant="full-width"
       >
         whatsapp.svg
       </svg>
@@ -7699,7 +7699,7 @@ Array [
       <svg
         className="icon"
         title="wikipedia"
-        variant={null}
+        variant="full-width"
       >
         wikipedia.svg
       </svg>
@@ -7715,7 +7715,7 @@ Array [
       <svg
         className="icon"
         title="windows-8"
-        variant={null}
+        variant="full-width"
       >
         windows-8.svg
       </svg>
@@ -7731,7 +7731,7 @@ Array [
       <svg
         className="icon"
         title="windows"
-        variant={null}
+        variant="full-width"
       >
         windows.svg
       </svg>
@@ -7747,7 +7747,7 @@ Array [
       <svg
         className="icon"
         title="wink-2"
-        variant={null}
+        variant="full-width"
       >
         wink-2.svg
       </svg>
@@ -7763,7 +7763,7 @@ Array [
       <svg
         className="icon"
         title="wink"
-        variant={null}
+        variant="full-width"
       >
         wink.svg
       </svg>
@@ -7779,7 +7779,7 @@ Array [
       <svg
         className="icon"
         title="woman"
-        variant={null}
+        variant="full-width"
       >
         woman.svg
       </svg>
@@ -7795,7 +7795,7 @@ Array [
       <svg
         className="icon"
         title="wondering-2"
-        variant={null}
+        variant="full-width"
       >
         wondering-2.svg
       </svg>
@@ -7811,7 +7811,7 @@ Array [
       <svg
         className="icon"
         title="wondering"
-        variant={null}
+        variant="full-width"
       >
         wondering.svg
       </svg>
@@ -7827,7 +7827,7 @@ Array [
       <svg
         className="icon"
         title="wordpress"
-        variant={null}
+        variant="full-width"
       >
         wordpress.svg
       </svg>
@@ -7843,7 +7843,7 @@ Array [
       <svg
         className="icon"
         title="wrench"
-        variant={null}
+        variant="full-width"
       >
         wrench.svg
       </svg>
@@ -7859,7 +7859,7 @@ Array [
       <svg
         className="icon"
         title="xing-2"
-        variant={null}
+        variant="full-width"
       >
         xing-2.svg
       </svg>
@@ -7875,7 +7875,7 @@ Array [
       <svg
         className="icon"
         title="xing"
-        variant={null}
+        variant="full-width"
       >
         xing.svg
       </svg>
@@ -7891,7 +7891,7 @@ Array [
       <svg
         className="icon"
         title="yahoo-2"
-        variant={null}
+        variant="full-width"
       >
         yahoo-2.svg
       </svg>
@@ -7907,7 +7907,7 @@ Array [
       <svg
         className="icon"
         title="yahoo"
-        variant={null}
+        variant="full-width"
       >
         yahoo.svg
       </svg>
@@ -7923,7 +7923,7 @@ Array [
       <svg
         className="icon"
         title="yelp"
-        variant={null}
+        variant="full-width"
       >
         yelp.svg
       </svg>
@@ -7939,7 +7939,7 @@ Array [
       <svg
         className="icon"
         title="youtube-2"
-        variant={null}
+        variant="full-width"
       >
         youtube-2.svg
       </svg>
@@ -7955,7 +7955,7 @@ Array [
       <svg
         className="icon"
         title="youtube"
-        variant={null}
+        variant="full-width"
       >
         youtube.svg
       </svg>
@@ -7971,7 +7971,7 @@ Array [
       <svg
         className="icon"
         title="zoom-in"
-        variant={null}
+        variant="full-width"
       >
         zoom-in.svg
       </svg>
@@ -7987,7 +7987,7 @@ Array [
       <svg
         className="icon"
         title="zoom-out"
-        variant={null}
+        variant="full-width"
       >
         zoom-out.svg
       </svg>
@@ -7999,12 +7999,12 @@ Array [
 exports[`Storyshots Icons Small 1`] = `
 <div
   className="container"
-  variant="normal"
+  variant="small"
 >
   <svg
     className="icon"
     title="home"
-    variant={null}
+    variant="full-width"
   >
     home.svg
   </svg>
@@ -8014,12 +8014,12 @@ exports[`Storyshots Icons Small 1`] = `
 exports[`Storyshots Icons Smallest 1`] = `
 <div
   className="container"
-  variant="normal"
+  variant="smallest"
 >
   <svg
     className="icon"
     title="home"
-    variant={null}
+    variant="full-width"
   >
     home.svg
   </svg>

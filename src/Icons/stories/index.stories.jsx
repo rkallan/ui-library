@@ -1,5 +1,5 @@
 import React from "react";
-import requireContext from "require-context.macro";
+import { allIconNames } from "../svgFiles";
 import Icons from "../index";
 import styles from "./resources/styles/icons-story.module.scss";
 
@@ -11,16 +11,8 @@ export default {
     },
 };
 
-const svgFiles = requireContext("../resources/svg", true, /\.svg$/).keys();
-
-const svgIcons = svgFiles.map((svgUrlPath) => {
-    const filename = svgUrlPath.split("/").pop();
-    const iconName = filename.slice(0, filename.lastIndexOf("."));
-    return iconName;
-});
-
 export const Overview = () => {
-    return svgIcons.map((name, index) => {
+    return allIconNames.map((name, index) => {
         const key = index;
         return (
             <div key={key} className={styles.container}>

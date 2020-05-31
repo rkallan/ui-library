@@ -3,7 +3,7 @@ const { url } = global;
 describe("<Button />", () => {
     it("visually looks correct", async () => {
         // APIs from jest-puppeteer
-        await page.goto(`${url}?id=button--with-text&viewMode=story`);
+        await page.goto(`${url}?id=button--default&viewMode=story`);
         const image = await page.screenshot();
 
         // API from jest-image-snapshot

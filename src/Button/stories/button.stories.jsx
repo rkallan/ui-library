@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import { action } from "@storybook/addon-actions";
+import { text } from "@storybook/addon-knobs";
+import mdx from "./button.stories.mdx";
 import Button from "../index";
 
 export default {
     title: "Button",
     component: Button,
     parameters: {
-        componentSubtitle: "Handy status label",
+        docs: {
+            page: mdx,
+        },
     },
 };
 
-export const WithText = () => <Button onClick={action("clicked")} label="Hello Button" />;
+export const Default = () => <Button onClick={action("clicked")} label={text("Label", "Hello Storybook")} />;
 
 export const WithSomeEmoji = () => <Button onClick={action("clicked")} label="😀 😎 👍 💯" />;
 
@@ -21,8 +25,3 @@ export const WithCounter = () => {
 };
 
 WithCounter.storyName = "with counter";
-WithCounter.parameters = {
-    docs: {
-        storyDescription: "This demonstrates react hooks working inside stories. Go team! 🚀",
-    },
-};

@@ -32,9 +32,9 @@
         "lint": "eslint .",
         "lint:staged": "npm run format",
         "start": "react-scripts start",
-        "start:storybook": "start-storybook -p 9009 -s public",
+        "storybook": "start-storybook -p 9009 -s public",
         "test": "react-scripts test --coverage --watchAll",
-        "test:all": "react-scripts test --coverage --watchAll=false",
+        "test:once": "react-scripts test --coverage --watchAll=false",
         "test:integration": "jest -c integration/jest.config.js"
     },
     "eslintConfig": {

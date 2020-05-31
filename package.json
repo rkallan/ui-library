@@ -34,7 +34,7 @@
         "start": "react-scripts start",
         "storybook": "start-storybook -p 9009 -s public",
         "test": "react-scripts test --coverage --watchAll",
-        "test:huskey": "react-scripts test",
+        "test:huskey": "react-scripts test --coverage --watchAll=false",
         "test:integration": "jest -c integration/jest.config.js"
     },
     "eslintConfig": {

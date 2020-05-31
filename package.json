@@ -28,7 +28,7 @@
         "build": "react-scripts build",
         "build:storybook": "build-storybook -s public",
         "coverage:server": "npx http-server coverage/lcov-report",
-        "format": "prettier --write ./**/*.{jsx,js,json,css,scss,mdx,md,svg}",
+        "format": "prettier --write './**/*.{jsx,js,json,css,scss,mdx,md,svg}'",
         "lint": "eslint .",
         "lint:staged": "npm run format",
         "start": "react-scripts start",

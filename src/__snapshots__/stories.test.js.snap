@@ -1,5 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Button Default 1`] = `
+<button
+  disabled={false}
+  onClick={[Function]}
+  style={Object {}}
+  type="button"
+>
+  Hello Storybook
+</button>
+`;
+
 exports[`Storyshots Button With Some Emoji 1`] = `
 <button
   disabled={false}
@@ -8,17 +19,6 @@ exports[`Storyshots Button With Some Emoji 1`] = `
   type="button"
 >
   😀 😎 👍 💯
-</button>
-`;
-
-exports[`Storyshots Button With Text 1`] = `
-<button
-  disabled={false}
-  onClick={[Function]}
-  style={Object {}}
-  type="button"
->
-  Hello Button
 </button>
 `;
 

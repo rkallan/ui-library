@@ -1,4 +1,6 @@
 /build*
 /node_modules
 /public
-.*
+/coverage
+**/__snapshots__
+**/__image_snapshots__

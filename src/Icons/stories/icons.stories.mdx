@@ -1,0 +1,46 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import Icons from "../index";
+
+<Meta title="Icons" component={Icons} />
+
+# Icons
+
+Icon sizes: smallest, small, normal, large, largest
+
+<Preview>
+    <Story id="icons--smallest"></Story>
+    <Story id="icons--small"></Story>
+    <Story id="icons--normal"></Story>
+    <Story id="icons--large"></Story>
+    <Story id="icons--largest"></Story>
+</Preview>
+
+## Props 🔧
+
+<Props of={Icons} />
+
+The left icon is set with a custom title, the right icon has no title. The title is visible on hover
+
+<Preview>
+    <Story id="icons--custom-title"></Story>
+    <Story id="icons--no-title"></Story>
+</Preview>
+
+Icon fallback when name not excist, on the right when noFallback is set to true
+
+<Preview>
+    <Story id="icons--fallback"></Story>
+    <Story id="icons--no-fallback"></Story>
+</Preview>
+
+Icon without a container
+
+<Preview>
+    <Story id="icons--no-container"></Story>
+</Preview>
+
+Overview off all SVG Icons. Hover on icon to see the icon name
+
+<Preview>
+    <Story id="icons--overview"></Story>
+</Preview>

@@ -48,21 +48,6 @@ exports[`Storyshots Icons Custom Title 1`] = `
 </div>
 `;
 
-exports[`Storyshots Icons Default 1`] = `
-<div
-  className="container"
-  variant="normal"
->
-  <svg
-    className="icon"
-    title="home"
-    variant="full-width"
-  >
-    home.svg
-  </svg>
-</div>
-`;
-
 exports[`Storyshots Icons Fallback 1`] = `
 <div
   className="container"
@@ -85,7 +70,7 @@ exports[`Storyshots Icons Large 1`] = `
 >
   <svg
     className="icon"
-    title="home"
+    title="large"
     variant="full-width"
   >
     home.svg
@@ -100,7 +85,7 @@ exports[`Storyshots Icons Largest 1`] = `
 >
   <svg
     className="icon"
-    title="home"
+    title="largest"
     variant="full-width"
   >
     home.svg
@@ -128,6 +113,21 @@ exports[`Storyshots Icons No Title 1`] = `
   <svg
     className="icon"
     title={null}
+    variant="full-width"
+  >
+    home.svg
+  </svg>
+</div>
+`;
+
+exports[`Storyshots Icons Normal 1`] = `
+<div
+  className="container"
+  variant="normal"
+>
+  <svg
+    className="icon"
+    title="normal"
     variant="full-width"
   >
     home.svg
@@ -8003,7 +8003,7 @@ exports[`Storyshots Icons Small 1`] = `
 >
   <svg
     className="icon"
-    title="home"
+    title="small"
     variant="full-width"
   >
     home.svg
@@ -8018,7 +8018,7 @@ exports[`Storyshots Icons Smallest 1`] = `
 >
   <svg
     className="icon"
-    title="home"
+    title="smallest"
     variant="full-width"
   >
     home.svg

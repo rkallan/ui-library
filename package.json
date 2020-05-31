@@ -1,29 +1,70 @@
 {
     "name": "rkallan-ui-library",
     "version": "0.0.1",
+    "private": true,
     "description": "ReactJS UI Library by R.Kallan",
     "keywords": [
         "UI Element"
     ],
-    "private": true,
-    "license": "MIT",
-    "author": {
-        "name": "Ravi Kallan",
+    "homepage": ".",
+    "bugs": {
+        "url": "https://github.com/rkallan/ui-library./issues/new",
         "email": "r.kallan@upcmail.nl"
     },
-    "homepage": ".",
     "repository": {
         "type": "git",
         "url": "git@github.com:rkallan/ui-library.git"
     },
-    "bugs": {
-        "url": "https://github.com/rkallan/ui-library./issues/new",
+    "license": "MIT",
+    "author": {
+        "name": "Ravi Kallan",
         "email": "r.kallan@upcmail.nl"
     },
     "main": "build/index.js",
     "files": [
         "build"
     ],
+    "scripts": {
+        "build": "react-scripts build",
+        "build:storybook": "build-storybook -s public",
+        "coverage:server": "npx http-server coverage/lcov-report",
+        "format": "prettier --write ./**/*.{jsx,js,json,css,scss,mdx,md,svg}",
+        "lint": "eslint .",
+        "lint:staged": "npm run format",
+        "start": "react-scripts start",
+        "storybook": "start-storybook -p 9009 -s public",
+        "test": "react-scripts test --coverage --watchAll",
+        "test:integration": "jest -c integration/jest.config.js"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "jest": {
+        "clearMocks": true,
+        "collectCoverageFrom": [
+            "**/*.{js,jsx}",
+            "!**/{integration,stories}/**",
+            "!**/*.{integration-*,stories}.*",
+            "!./src/serviceWorker.js"
+        ],
+        "coverageThreshold": {
+            "global": {
+                "branches": 0,
+                "functions": 0,
+                "lines": 0,
+                "statements": 0
+            }
+        },
+        "displayName": {
+            "name": "RKallan UI Library",
+            "color": "red"
+        },
+        "transform": {
+            "^.+\\.[tj]sx?$": "babel-jest",
+            "^.+\\.svg$": "jest-svg-transformer",
+            "^.+\\.mdx?$": "@storybook/addon-docs/jest-transform-mdx"
+        }
+    },
     "dependencies": {
         "@loadable/component": "^5.12.0",
         "@storybook/addon-a11y": "v6.0.0-beta.19",
@@ -81,46 +122,5 @@
         "puppeteer": "3.1.0",
         "react-test-renderer": "^16.13.1",
         "service-worker-mock": "^2.0.5"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test --coverage --watchAll",
-        "test:integration": "jest -c integration/jest.config.js",
-        "eject": "react-scripts eject",
-        "lint": "eslint .",
-        "lint:staged": "npm run format",
-        "format": "prettier --write \"./**/*.{jsx,js,json,css,scss,md,svg}\" \"!node_modules/**\"",
-        "storybook": "start-storybook -p 9009 -s public",
-        "build-storybook": "build-storybook -s public"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "jest": {
-        "transform": {
-            "^.+\\.[tj]sx?$": "babel-jest",
-            "^.+\\.svg$": "jest-svg-transformer",
-            "^.+\\.mdx?$": "@storybook/addon-docs/jest-transform-mdx"
-        },
-        "clearMocks": true,
-        "collectCoverageFrom": [
-            "**/*.{js,jsx}",
-            "!**/{integration,stories}/**",
-            "!**/*.{integration-*,stories}.*",
-            "!./src/serviceWorker.js"
-        ],
-        "coverageThreshold": {
-            "global": {
-                "branches": 0,
-                "functions": 0,
-                "lines": 0,
-                "statements": 0
-            }
-        },
-        "displayName": {
-            "name": "RKallan UI Library",
-            "color": "red"
-        }
     }
 }

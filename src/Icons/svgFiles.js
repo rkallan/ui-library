@@ -11,10 +11,10 @@ const allIconNames = filenames.map((svgUrlPath) => {
 
 const svgFiles =
     process.env.NODE_ENV === "test"
-        ? requireContext("./resources/svg", true, /\.svg$/)
-        : requireContext("!@svgr/webpack?-svgo,+titleProp!./resources/svg", true, /\.svg$/);
+        ? requireContext("./resources/svg", true, /\.svg$/).keys()
+        : requireContext("!@svgr/webpack?-svgo,+titleProp!./resources/svg", true, /\.svg$/).keys();
 
-const svgIcons = svgFiles.keys().reduce((svgComponents, svgUrlPath) => {
+const svgIcons = svgFiles.reduce((svgComponents, svgUrlPath) => {
     const filename = svgUrlPath.split("/").pop();
     const objectKey = filename.slice(0, filename.lastIndexOf("."));
     const svgComponent = svgComponents;

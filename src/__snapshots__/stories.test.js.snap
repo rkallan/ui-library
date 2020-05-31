@@ -8026,6 +8026,8 @@ exports[`Storyshots Icons Smallest 1`] = `
 </div>
 `;
 
+exports[`Storyshots Loading Default 1`] = `null`;
+
 exports[`Storyshots Loading Delay 1`] = `null`;
 
 exports[`Storyshots Loading No Delay 1`] = `

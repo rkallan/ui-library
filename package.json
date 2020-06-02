@@ -97,9 +97,9 @@
         "react-scripts": "3.4.1",
         "react-spring": "9.0.0-rc.3",
         "require-context.macro": "^1.2.2",
-        "rkallan-eslint-config": "^4.0.1",
-        "rkallan-eslint-config-react": "^4.0.0",
-        "rkallan-prettier-config": "^2.0.1",
+        "rkallan-eslint-config": "^4.0.2",
+        "rkallan-eslint-config-react": "^4.0.1",
+        "rkallan-prettier-config": "^2.0.2",
         "storybook-dark-mode": "^0.6.1"
     },
     "devDependencies": {
@@ -124,7 +124,7 @@
         "lint-staged": "^10.2.7",
         "node-sass": "^4.14.1",
         "prettier": "^2.0.5",
-        "puppeteer": "3.1.0",
+        "puppeteer": "3.2.0",
         "react-test-renderer": "^16.13.1"
     }
 }

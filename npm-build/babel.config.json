@@ -1,0 +1,21 @@
+{
+    "babelrc": false,
+    "minified": true,
+    "comments": false,
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react",
+        [
+            "minify",
+            {
+                "removeConsole": {
+                    "exclude": ["error"]
+                },
+                "removeDebugger": true
+            }
+        ]
+    ],
+    "plugins": ["macros"],
+    "test": ["../src/**/*.js", "../src/**/*.jsx"],
+    "ignore": ["../**/*.test.jsx", "../**/*.test.js", "../**/integration", "../**/stories", "../**/serviceWorker.js", "../**/setupTests.js"]
+}

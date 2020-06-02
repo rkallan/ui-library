@@ -6,11 +6,12 @@
 .pnp.js
 
 # testing
-/coverage
+**/coverage
 **/__diff_output__
 
 # production
 **/build
+**/dist
 
 # misc
 .DS_Store
@@ -19,7 +20,6 @@
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+*-debug.log*
+*-error.log*
 *.css

@@ -21,7 +21,9 @@
     },
     "main": "index.js",
     "files": [
-        "*.js"
+        "*.js",
+        "!.*",
+        "!*.config.*"
     ],
     "scripts": {
         "build": "react-scripts build",
@@ -58,7 +60,7 @@
             }
         },
         "displayName": {
-            "name": "RKallan UI Library",
+            "name": "R.Kallan UI Library",
             "color": "red"
         },
         "transform": {

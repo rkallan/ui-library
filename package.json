@@ -21,12 +21,23 @@
     },
     "main": "index.js",
     "files": [
-        "*.js",
+        "**/*",
         "!.*",
-        "!*.config.*"
+        "!*.config.*",
+        "!**/build*",
+        "!**/coverage/**",
+        "!**/dist/**",
+        "!**/integration/**",
+        "!**/node_modules/**",
+        "!**/npm-build/**",
+        "!**/public/**",
+        "!**/src/**",
+        "!jsconfig.json"
     ],
     "scripts": {
         "build": "react-scripts build",
+        "build:test": "babel src -d dist --config-file ./npm-build/babel.config.json",
+        "postbuild:test": "copy-files-from-to --mode test --config ./npm-build/copy-files-for-npm.json",
         "build:npm": "babel src -d . --config-file ./npm-build/babel.config.json",
         "postbuild:npm": "copy-files-from-to --config ./npm-build/copy-files-for-npm.json",
         "build:storybook": "build-storybook -s public",

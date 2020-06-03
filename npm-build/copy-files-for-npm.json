@@ -14,8 +14,10 @@
                 "!../**/integration/**/*",
                 { "followSymlinkedDirectories": false }
             ],
-
-            "to": "../"
+            "to": {
+                "default": "../",
+                "test": "../dist/"
+            }
         }
     ],
     "copyFilesSettings": {

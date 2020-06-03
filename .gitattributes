@@ -1,0 +1,14 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.gitattributes text
+.gitignore text
+*.md text
+*.mdx text
+
+*.sh text eol=lf
+
+.gitattributes export-ignore
+.gitignore export-ignore
+
+*.gitattributes linguist-language=gitattributes

@@ -1,0 +1,10 @@
+*.css
+
+**/build*
+**/coverage/**
+**/dist/**
+**/node_modules/**
+
+**/__snapshots__/**
+**/__image_snapshots__/**
+**/__diff_output__/**

@@ -1,0 +1,28 @@
+{
+    "copyFiles": [
+        {
+            "from": [
+                "../src/**/*",
+                "!../**/*.js",
+                "!../**/*.jsx",
+                "!../**/*.stories.*",
+                "!../**/*.test.*",
+                "!../**/*.integration-test.*",
+                "!../**/node_modules/**/*",
+                "!../**/__*__/**/*",
+                "!../**/stories/**/*",
+                "!../**/integration/**/*",
+                { "followSymlinkedDirectories": false }
+            ],
+
+            "to": "../dist/"
+        }
+    ],
+    "copyFilesSettings": {
+        "whenFileExists": "overwrite",
+        "removeSourceMappingURL": false,
+        "uglifyJs": false,
+        "addReferenceToSourceOfOrigin": false,
+        "ignoreDotFilesAndFolders": true
+    }
+}

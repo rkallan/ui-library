@@ -1,0 +1,13 @@
+.*
+*.config.js
+
+**/build*
+**/coverage/**
+**/dist/**
+**/integration/**
+**/node_modules/**
+**/npm-build/**
+**/public/**
+**/src/**
+
+jsconfig.json

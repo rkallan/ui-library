@@ -1,5 +1,4 @@
-@import "../mixins/mixins";
-@import "../variables/variables";
+@import "../variables/colors";
 
 :export {
     colorWhite: safe-hsla($colorWhite);

@@ -23,6 +23,8 @@
     "files": [
         "**/*",
         "!.*",
+        "!*-lock*",
+        "!jsconfig.json",
         "!*.config.*",
         "!**/build*",
         "!**/coverage/**",
@@ -31,8 +33,7 @@
         "!**/node_modules/**",
         "!**/npm-build/**",
         "!**/public/**",
-        "!**/src/**",
-        "!jsconfig.json"
+        "!**/src/**"
     ],
     "scripts": {
         "build": "react-scripts build",

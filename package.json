@@ -27,7 +27,7 @@
     ],
     "scripts": {
         "build": "react-scripts build",
-        "build:npm": "babel src -d dist --config-file ./npm-build/babel.config.json --delete-dir-on-start",
+        "build:npm": "babel src -d . --config-file ./npm-build/babel.config.json",
         "postbuild:npm": "copy-files-from-to --config ./npm-build/copy-files-for-npm.json",
         "build:storybook": "build-storybook -s public",
         "coverage:server": "npx http-server coverage/lcov-report",

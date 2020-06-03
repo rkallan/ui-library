@@ -15,7 +15,7 @@
                 { "followSymlinkedDirectories": false }
             ],
 
-            "to": "../dist/"
+            "to": "../"
         }
     ],
     "copyFilesSettings": {

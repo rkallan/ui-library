@@ -144,7 +144,7 @@
         "prettier": "^2.0.5",
         "puppeteer": "3.3.0",
         "react-test-renderer": "^16.13.1",
-        "semantic-release": "^17.0.8"
+        "semantic-release": "^19.0.3"
     },
     "plugins": [
         "@semantic-release/commit-analyzer",
